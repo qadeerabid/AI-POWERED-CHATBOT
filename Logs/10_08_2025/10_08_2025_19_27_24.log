@@ -1,0 +1,451 @@
+[2025-08-10 19:27:24,701 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-10 19:27:24,703 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-10 19:27:24,703 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-10 19:27:26,866 ] 55 root - INFO - LLM initialized successfully
+[2025-08-10 19:27:26,866 ] 66 root - INFO - Creating prompt template
+[2025-08-10 19:27:26,867 ] 153 root - INFO - Prompt template has been created
+[2025-08-10 19:27:26,867 ] 164 root - INFO - Loading vectorstore 
+[2025-08-10 19:27:29,280 ] 168 root - INFO - Successfully loaded vectorstore
+[2025-08-10 19:27:29,289 ] 179 root - INFO - Initializing vector_store as retriever
+[2025-08-10 19:27:29,289 ] 184 root - INFO - Retriever has be initializing
+[2025-08-10 19:27:29,289 ] 195 root - INFO - Creating stuff document chain...
+[2025-08-10 19:27:29,291 ] 201 root - INFO - Creating retrieval chain...
+[2025-08-10 19:27:29,291 ] 205 root - INFO - Chains created successfully
+[2025-08-10 19:27:29,318 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-10 19:27:29,318 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-10 19:45:04,707 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:04] "GET / HTTP/1.1" 200 -
+[2025-08-10 19:45:05,374 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-02.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,377 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-01.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,531 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-06.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,547 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-10 19:45:05,565 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-04.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,594 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-05.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,595 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-10 19:45:05,608 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-01.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,629 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/shirt-03.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,634 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-02.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,651 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-04.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,664 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-03.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,677 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-05.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,698 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/saree-06.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-01.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,750 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-02.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,753 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-03.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-04.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-05.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,843 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/watch-06.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/chatbot-icon-2-.png HTTP/1.1" 200 -
+[2025-08-10 19:45:05,891 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:05] "GET /static/images/chatbot-icon-1.png HTTP/1.1" 200 -
+[2025-08-10 19:45:06,006 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:06] "GET /static/images/right-01.jpg HTTP/1.1" 200 -
+[2025-08-10 19:45:06,007 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:06] "GET /static/images/left.jpg HTTP/1.1" 200 -
+[2025-08-10 19:45:06,021 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:06] "GET /static/images/right-03.jpg HTTP/1.1" 200 -
+[2025-08-10 19:45:06,021 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:06] "GET /static/images/right-02.jpg HTTP/1.1" 200 -
+[2025-08-10 19:45:07,157 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-10 19:45:15,263 ] 29 root - INFO - User Input: hi
+[2025-08-10 19:45:15,854 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:15] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:45:21,617 ] 29 root - INFO - User Input: hello
+[2025-08-10 19:45:22,052 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:22] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:45:26,131 ] 29 root - INFO - User Input: shirts
+[2025-08-10 19:45:26,447 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:45:26] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:55:37,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "GET / HTTP/1.1" 200 -
+[2025-08-10 19:55:37,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,327 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,331 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,337 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,349 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,356 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,362 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,365 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,375 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,378 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,388 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,395 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,398 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,407 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,410 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,422 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,424 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,427 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,431 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,449 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,482 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,484 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,494 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:37,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:37] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 19:55:43,053 ] 29 root - INFO - User Input: hi
+[2025-08-10 19:55:43,435 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:43] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:55:51,699 ] 29 root - INFO - User Input: shirts
+[2025-08-10 19:55:52,013 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:55:52] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:56:39,972 ] 29 root - INFO - User Input: helooo
+[2025-08-10 19:56:40,370 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:56:40] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:56:41,205 ] 29 root - INFO - User Input: asjfas
+[2025-08-10 19:56:41,572 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:56:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 19:56:43,979 ] 29 root - INFO - User Input: saree
+[2025-08-10 19:56:44,335 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 19:56:44] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:06:10,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "GET / HTTP/1.1" 200 -
+[2025-08-10 20:06:10,586 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,595 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,604 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,607 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,610 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,616 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,620 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,629 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,631 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,640 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,660 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,662 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,664 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,669 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,687 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,708 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,711 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:10,717 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:10] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:11,255 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:11] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:11,260 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:11] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:11,266 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:11] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:11,272 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:11] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:06:14,876 ] 29 root - INFO - User Input: hi
+[2025-08-10 20:06:15,229 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:15] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:06:17,117 ] 29 root - INFO - User Input: jsafd
+[2025-08-10 20:06:17,785 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:06:34,667 ] 29 root - INFO - User Input: shirts
+[2025-08-10 20:06:35,338 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:35] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:06:39,718 ] 29 root - INFO - User Input: mens
+[2025-08-10 20:06:40,082 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:40] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:06:41,417 ] 29 root - INFO - User Input: men
+[2025-08-10 20:06:41,758 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:06:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:42:43,318 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "GET / HTTP/1.1" 200 -
+[2025-08-10 20:42:43,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,486 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,513 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,526 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,544 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,560 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,616 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,638 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,645 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,657 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,669 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,719 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,732 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,738 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,748 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,789 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,793 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,799 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,817 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,840 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:43,854 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:43] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:42:48,579 ] 29 root - INFO - User Input: hi
+[2025-08-10 20:42:48,954 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:48] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:42:52,256 ] 29 root - INFO - User Input: shirts
+[2025-08-10 20:42:52,637 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:52] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:42:57,143 ] 29 root - INFO - User Input: hello
+[2025-08-10 20:42:57,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:42:57] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:44:20,213 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "GET / HTTP/1.1" 200 -
+[2025-08-10 20:44:20,344 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,352 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,358 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,362 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,370 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,375 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,383 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,396 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,401 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,408 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,416 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,420 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,424 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,435 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,448 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,460 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,483 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,532 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,538 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,544 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:20,546 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:20] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:44:24,915 ] 29 root - INFO - User Input: mens
+[2025-08-10 20:44:25,232 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:25] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:44:28,522 ] 29 root - INFO - User Input: hello
+[2025-08-10 20:44:28,936 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:28] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:44:34,527 ] 29 root - INFO - User Input: refund
+[2025-08-10 20:44:34,808 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:44:34] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:55:07,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "GET / HTTP/1.1" 200 -
+[2025-08-10 20:55:07,801 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,809 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,828 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,830 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,835 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,846 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,860 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,864 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,885 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,894 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,904 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,906 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,943 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,950 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,973 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,980 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,988 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:07,993 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:07] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:08,005 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:08] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:08,007 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:08] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 20:55:12,829 ] 29 root - INFO - User Input: hello
+[2025-08-10 20:55:13,430 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 20:55:17,233 ] 29 root - INFO - User Input: hello
+[2025-08-10 20:55:18,623 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 20:55:18] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:00:07,232 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:00:07,304 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,305 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,311 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,314 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,318 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,326 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,329 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,333 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,338 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,346 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,351 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,358 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,365 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,369 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,376 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,387 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,399 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,405 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,412 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,419 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,427 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,431 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,452 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,476 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:07,479 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:07] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:00:12,802 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:00:13,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:00:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:03:02,156 ] 29 root - INFO - User Input: refund
+[2025-08-10 21:03:03,089 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:03:03] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:03:09,425 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:03:11,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:03:11] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:03:11,540 ] 29 root - INFO - User Input: help
+[2025-08-10 21:03:11,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:03:11] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:09:23,401 ] 29 root - INFO - User Input: n,mn
+[2025-08-10 21:09:23,951 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:09:23] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:09:26,463 ] 29 root - INFO - User Input: order
+[2025-08-10 21:09:26,950 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:09:26] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:12:47,597 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:12:47] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:12:47,690 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:12:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:13:57,416 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:13:57,759 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:13:57] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:17:53,147 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:17:53,220 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,231 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,233 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,273 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,281 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,291 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,294 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,296 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,308 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,311 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,333 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:17:53,337 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,352 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,366 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,399 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,406 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,421 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,440 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,459 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,471 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,480 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,494 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,496 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:53,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:53] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:17:57,642 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:17:57,651 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,661 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,670 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,698 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,706 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,719 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,730 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,746 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,755 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,774 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,785 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,804 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,817 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,819 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,839 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,839 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,876 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,889 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,893 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,899 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:17:57,923 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:17:57] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:18:01,350 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:18:01,429 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,429 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,436 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,442 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,500 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,504 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,512 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,536 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,555 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,577 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,609 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,611 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,625 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,642 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,655 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,660 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,665 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,668 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:01,722 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:01] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:18:09,408 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:18:09,771 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:18:09] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:19:13,805 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:19:13,859 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,871 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,893 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,896 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:19:13,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,927 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,946 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,959 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,964 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:13,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:13] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,001 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,010 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,015 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,077 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,080 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,103 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,121 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,122 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,141 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,160 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,163 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,168 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:19:14,184 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:19:14] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:20:06,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:20:06,588 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,597 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,615 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,619 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,626 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,633 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,646 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,651 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,663 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,674 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,706 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,716 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,718 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,738 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,746 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,754 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,758 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,763 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,773 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,791 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,825 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,827 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:06,829 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:06] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:20:11,100 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:20:11,442 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:20:11] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-10 21:28:49,815 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "GET / HTTP/1.1" 200 -
+[2025-08-10 21:28:49,881 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[2025-08-10 21:28:49,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,943 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,954 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,969 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,977 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:49,998 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:49] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,004 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,016 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,038 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,053 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,062 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,076 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,125 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,188 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,189 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,193 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,222 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,232 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,251 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,257 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:50,258 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:50] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-10 21:28:55,233 ] 29 root - INFO - User Input: hello
+[2025-08-10 21:28:56,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2025 21:28:56] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -

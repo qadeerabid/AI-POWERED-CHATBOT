@@ -1,0 +1,54 @@
+[2025-08-12 23:26:57,607 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-12 23:26:57,607 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-12 23:26:57,607 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-12 23:26:59,532 ] 55 root - INFO - LLM initialized successfully
+[2025-08-12 23:26:59,532 ] 66 root - INFO - Creating prompt template
+[2025-08-12 23:26:59,532 ] 113 root - INFO - Prompt template has been created
+[2025-08-12 23:26:59,533 ] 122 root - INFO - Loading vectorstore 
+[2025-08-12 23:27:01,365 ] 126 root - INFO - Successfully loaded vectorstore
+[2025-08-12 23:27:01,373 ] 135 root - INFO - Initializing vector_store as retriever
+[2025-08-12 23:27:01,373 ] 138 root - INFO - Retriever has been initialized
+[2025-08-12 23:27:01,373 ] 148 root - INFO - Creating stuff document chain...
+[2025-08-12 23:27:01,375 ] 154 root - INFO - Creating retrieval chain...
+[2025-08-12 23:27:01,375 ] 158 root - INFO - Chains created successfully
+[2025-08-12 23:27:01,393 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-12 23:27:01,393 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-12 23:27:03,756 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:03] "GET / HTTP/1.1" 200 -
+[2025-08-12 23:27:04,035 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,036 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,044 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,052 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,054 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,055 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,056 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,060 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,070 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,073 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,091 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,096 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,108 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,113 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,115 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,118 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,122 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,144 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,151 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,154 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,161 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,166 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,169 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:27:04,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:27:04] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:30:28,225 ] 30 root - INFO - /chat route called
+[2025-08-12 23:30:28,225 ] 33 root - INFO - Request JSON: {'input': 'on which data you have been trained'}
+[2025-08-12 23:30:28,226 ] 35 root - INFO - User Input: on which data you have been trained
+[2025-08-12 23:30:28,226 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 23:30:31,969 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 23:30:33,916 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 23:30:33,965 ] 40 root - INFO - Chatbot Response: I haven't been provided with any specific data or context about your e-commerce store's products and inventory. I'm starting from a blank slate. If you'd like to share some information about your products, I'd be happy to help assist with recommendations or other inquiries.
+
+Let me know if you have any specific questions or if there's anything else I can help with!
+[2025-08-12 23:30:33,965 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:30:33] "POST /chat HTTP/1.1" 200 -

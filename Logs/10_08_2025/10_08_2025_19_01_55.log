@@ -1,0 +1,4 @@
+[2025-08-10 19:01:55,928 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-10 19:01:55,935 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-10 19:01:55,936 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-10 19:01:56,416 ] 59 root - ERROR - Error initializing LLM: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable

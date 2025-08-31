@@ -1,0 +1,121 @@
+[2025-08-12 22:43:57,781 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-12 22:43:57,782 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-12 22:43:57,783 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-12 22:43:59,905 ] 55 root - INFO - LLM initialized successfully
+[2025-08-12 22:43:59,905 ] 66 root - INFO - Creating prompt template
+[2025-08-12 22:43:59,905 ] 111 root - INFO - Prompt template has been created
+[2025-08-12 22:43:59,906 ] 120 root - INFO - Loading vectorstore 
+[2025-08-12 22:44:01,688 ] 124 root - INFO - Successfully loaded vectorstore
+[2025-08-12 22:44:01,689 ] 133 root - INFO - Initializing vector_store as retriever
+[2025-08-12 22:44:01,690 ] 136 root - INFO - Retriever has been initialized
+[2025-08-12 22:44:01,690 ] 146 root - INFO - Creating stuff document chain...
+[2025-08-12 22:44:01,696 ] 152 root - INFO - Creating retrieval chain...
+[2025-08-12 22:44:01,697 ] 156 root - INFO - Chains created successfully
+[2025-08-12 22:44:01,807 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-12 22:44:01,807 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-12 22:44:22,437 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "GET / HTTP/1.1" 200 -
+[2025-08-12 22:44:22,742 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,750 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,750 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-12 22:44:22,763 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,766 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,782 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,784 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,788 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,797 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,813 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,831 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,831 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,834 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,859 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,880 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,886 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,899 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,916 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,919 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-12 22:44:22,938 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:44:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-12 22:45:06,830 ] 30 root - INFO - /chat route called
+[2025-08-12 22:45:06,830 ] 33 root - INFO - Request JSON: {'input': 'hello'}
+[2025-08-12 22:45:06,830 ] 35 root - INFO - User Input: hello
+[2025-08-12 22:45:06,830 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 22:45:12,009 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 22:45:13,001 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 22:45:13,050 ] 40 root - INFO - Chatbot Response: Hello. I'm happy to help you with any questions or recommendations you might need for our e-commerce store. What are you looking for today?
+[2025-08-12 22:45:13,051 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:45:13] "POST /chat HTTP/1.1" 200 -
+[2025-08-12 22:45:21,873 ] 30 root - INFO - /chat route called
+[2025-08-12 22:45:21,873 ] 33 root - INFO - Request JSON: {'input': 'i am looking for saree'}
+[2025-08-12 22:45:21,874 ] 35 root - INFO - User Input: i am looking for saree
+[2025-08-12 22:45:21,874 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 22:45:23,438 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 22:45:24,121 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 22:45:24,132 ] 40 root - INFO - Chatbot Response: We have a beautiful collection of sarees. Here are a few options:
+
+1. Brand: Sugathari
+   Product: Women's Banarasi Saree 
+   Price: \u20b9549 
+
+2. Brand: Vardhma
+   Product: Women's Cotton Saree 
+   Price: \u20b9799 
+
+3. Brand: Kanchan
+   Product: Women's Silk Saree 
+   Price: \u20b91,299 
+
+Let me know if you'd like to see more options!
+[2025-08-12 22:45:24,134 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:45:24] "POST /chat HTTP/1.1" 200 -
+[2025-08-12 22:45:36,274 ] 30 root - INFO - /chat route called
+[2025-08-12 22:45:36,274 ] 33 root - INFO - Request JSON: {'input': 'what offers do you have on this'}
+[2025-08-12 22:45:36,275 ] 35 root - INFO - User Input: what offers do you have on this
+[2025-08-12 22:45:36,275 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 22:45:37,535 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 22:45:38,220 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 22:45:38,229 ] 40 root - INFO - Chatbot Response: We have some exciting offers on our sarees. Here are the details:
+
+1. Brand: Sugathari
+   Product: Women's Banarasi Saree 
+   Price: \u20b9549 (MRP: \u20b92,299, 76% off)
+
+2. Brand: Vardhma
+   Product: Women's Cotton Saree 
+   Price: \u20b9799 (MRP: \u20b91,999, 60% off)
+
+3. Brand: Kanchan
+   Product: Women's Silk Saree 
+   Price: \u20b91,299 (MRP: \u20b92,999, 57% off)
+
+Let me know if you'd like to see more options or if you have any specific preferences!
+[2025-08-12 22:45:38,230 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:45:38] "POST /chat HTTP/1.1" 200 -
+[2025-08-12 22:46:11,411 ] 30 root - INFO - /chat route called
+[2025-08-12 22:46:11,411 ] 33 root - INFO - Request JSON: {'input': 'can you coonvert these prices into pounds'}
+[2025-08-12 22:46:11,411 ] 35 root - INFO - User Input: can you coonvert these prices into pounds
+[2025-08-12 22:46:11,411 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 22:46:13,014 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 22:46:13,879 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 22:46:13,888 ] 40 root - INFO - Chatbot Response: I can try to convert the prices to pounds for you. However, please note that the exchange rate may vary. Assuming an approximate exchange rate of 1 GBP = 95 INR, here are the converted prices:
+
+1. Brand: Sugathari
+   Product: Women's Banarasi Saree 
+   Price: \u20b9549 \u2248 £5.78 (MRP: \u20b92,299 \u2248 £24.20, 76% off)
+
+2. Brand: Vardhma
+   Product: Women's Cotton Saree 
+   Price: \u20b9799 \u2248 £8.42 (MRP: \u20b91,999 \u2248 £21.05, 60% off)
+
+3. Brand: Kanchan
+   Product: Women's Silk Saree 
+   Price: \u20b91,299 \u2248 £13.68 (MRP: \u20b92,999 \u2248 £31.57, 57% off)
+
+Please keep in mind that this is an approximate conversion and the actual price in pounds may vary depending on the current exchange rate.
+
+Let me know if you'd like to see more options or if you have any specific preferences!
+[2025-08-12 22:46:13,889 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 22:46:13] "POST /chat HTTP/1.1" 200 -

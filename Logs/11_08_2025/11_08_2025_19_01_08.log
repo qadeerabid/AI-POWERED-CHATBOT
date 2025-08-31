@@ -1,0 +1,96 @@
+[2025-08-11 19:01:09,166 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-11 19:01:09,167 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-11 19:01:09,167 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-11 19:01:12,211 ] 55 root - INFO - LLM initialized successfully
+[2025-08-11 19:01:12,212 ] 66 root - INFO - Creating prompt template
+[2025-08-11 19:01:12,212 ] 111 root - INFO - Prompt template has been created
+[2025-08-11 19:01:12,213 ] 120 root - INFO - Loading vectorstore 
+[2025-08-11 19:01:14,726 ] 124 root - INFO - Successfully loaded vectorstore
+[2025-08-11 19:01:14,727 ] 133 root - INFO - Initializing vector_store as retriever
+[2025-08-11 19:01:14,727 ] 136 root - INFO - Retriever has been initialized
+[2025-08-11 19:01:14,727 ] 146 root - INFO - Creating stuff document chain...
+[2025-08-11 19:01:14,733 ] 152 root - INFO - Creating retrieval chain...
+[2025-08-11 19:01:14,734 ] 156 root - INFO - Chains created successfully
+[2025-08-11 19:01:14,770 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-11 19:01:14,770 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-11 19:01:18,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:18] "GET / HTTP/1.1" 200 -
+[2025-08-11 19:01:19,174 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,181 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,190 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,202 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,214 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,225 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,237 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,249 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,250 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,253 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,274 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,280 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,298 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,309 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,311 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,317 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,337 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,340 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,345 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,370 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:19,376 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:19] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:21,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:21] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:21,470 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:21] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:21,478 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:21] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:21,484 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:21] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 19:01:25,689 ] 30 root - INFO - /chat route called
+[2025-08-11 19:01:25,690 ] 33 root - INFO - Request JSON: {'input': 'hello'}
+[2025-08-11 19:01:25,690 ] 35 root - INFO - User Input: hello
+[2025-08-11 19:01:25,690 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 19:01:28,633 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 19:01:29,532 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 19:01:29,547 ] 40 root - INFO - Chatbot Response: Hello. Welcome to our e-commerce store. I'm happy to help you find what you're looking for. What kind of products are you interested in today? Let me know if you'd like to see some recommendations!
+[2025-08-11 19:01:29,547 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:29] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 19:01:42,609 ] 30 root - INFO - /chat route called
+[2025-08-11 19:01:42,609 ] 33 root - INFO - Request JSON: {'input': 'watches for men'}
+[2025-08-11 19:01:42,610 ] 35 root - INFO - User Input: watches for men
+[2025-08-11 19:01:42,610 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 19:01:44,287 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 19:01:44,979 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 19:01:44,987 ] 40 root - INFO - Chatbot Response: Here are some watch options for men:
+
+1. Brand: Fossil
+   Product: Grant Chronograph Watch
+   Price: \u20b98,995 (MRP: \u20b912,995, 31% off)
+
+2. Brand: Skagen
+   Product: Ancher Automatic Watch
+   Price: \u20b919,995 (MRP: \u20b929,995, 33% off)
+
+3. Brand: Diesel
+   Product: Mega Chief Watch
+   Price: \u20b912,495 (MRP: \u20b919,995, 37% off)
+
+Let me know if you'd like to see more options!
+[2025-08-11 19:01:44,989 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:01:44] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 19:03:06,227 ] 30 root - INFO - /chat route called
+[2025-08-11 19:03:06,227 ] 33 root - INFO - Request JSON: {'input': 'Skagen Products'}
+[2025-08-11 19:03:06,228 ] 35 root - INFO - User Input: Skagen Products
+[2025-08-11 19:03:06,228 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 19:03:10,787 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 19:03:11,458 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 19:03:11,467 ] 40 root - INFO - Chatbot Response: Here are some Skagen products:
+
+1. Brand: Skagen
+   Product: Ancher Automatic Watch
+   Price: \u20b919,995 (MRP: \u20b929,995, 33% off)
+
+2. Brand: Skagen
+   Product: Falster Smartwatch
+   Price: \u20b915,995 (MRP: \u20b924,995, 36% off)
+
+3. Brand: Skagen
+   Product: Holst Multifunction Watch
+   Price: \u20b912,495 (MRP: \u20b919,995, 37% off)
+
+Let me know if you'd like to see more options!
+[2025-08-11 19:03:11,469 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 19:03:11] "POST /chat HTTP/1.1" 200 -

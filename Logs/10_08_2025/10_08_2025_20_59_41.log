@@ -1,0 +1,16 @@
+[2025-08-10 20:59:41,468 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-10 20:59:41,469 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-10 20:59:41,469 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-10 20:59:43,954 ] 55 root - INFO - LLM initialized successfully
+[2025-08-10 20:59:43,954 ] 66 root - INFO - Creating prompt template
+[2025-08-10 20:59:43,955 ] 153 root - INFO - Prompt template has been created
+[2025-08-10 20:59:43,955 ] 164 root - INFO - Loading vectorstore 
+[2025-08-10 20:59:55,731 ] 168 root - INFO - Successfully loaded vectorstore
+[2025-08-10 20:59:55,732 ] 179 root - INFO - Initializing vector_store as retriever
+[2025-08-10 20:59:55,732 ] 184 root - INFO - Retriever has be initializing
+[2025-08-10 20:59:55,732 ] 195 root - INFO - Creating stuff document chain...
+[2025-08-10 20:59:55,735 ] 201 root - INFO - Creating retrieval chain...
+[2025-08-10 20:59:55,735 ] 205 root - INFO - Chains created successfully
+[2025-08-10 20:59:55,787 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-10 20:59:55,788 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,91 @@
+[2025-08-12 23:05:27,054 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-12 23:05:27,054 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-12 23:05:27,054 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-12 23:05:29,270 ] 55 root - INFO - LLM initialized successfully
+[2025-08-12 23:05:29,271 ] 66 root - INFO - Creating prompt template
+[2025-08-12 23:05:29,271 ] 112 root - INFO - Prompt template has been created
+[2025-08-12 23:05:29,271 ] 121 root - INFO - Loading vectorstore 
+[2025-08-12 23:05:31,007 ] 125 root - INFO - Successfully loaded vectorstore
+[2025-08-12 23:05:31,008 ] 134 root - INFO - Initializing vector_store as retriever
+[2025-08-12 23:05:31,008 ] 137 root - INFO - Retriever has been initialized
+[2025-08-12 23:05:31,008 ] 147 root - INFO - Creating stuff document chain...
+[2025-08-12 23:05:31,014 ] 153 root - INFO - Creating retrieval chain...
+[2025-08-12 23:05:31,015 ] 157 root - INFO - Chains created successfully
+[2025-08-12 23:05:31,054 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-12 23:05:31,054 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-12 23:05:37,625 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:37] "GET / HTTP/1.1" 200 -
+[2025-08-12 23:05:38,031 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,035 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,036 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,040 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,050 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,053 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,055 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,058 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,064 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,068 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,089 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,090 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,095 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,111 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,115 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,119 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,126 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,136 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,142 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,147 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,152 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,159 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:38,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:38] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-12 23:05:44,845 ] 30 root - INFO - /chat route called
+[2025-08-12 23:05:44,845 ] 33 root - INFO - Request JSON: {'input': 'mens shorts'}
+[2025-08-12 23:05:44,846 ] 35 root - INFO - User Input: mens shorts
+[2025-08-12 23:05:44,846 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 23:05:48,858 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-12 23:05:49,637 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 23:05:49,684 ] 40 root - INFO - Chatbot Response: Here are some men's shorts you might like:
+
+1. Brand: Levi's
+    Product: 511 Slim Fit Shorts
+    Price: $49.99
+
+2. Brand: Nike
+    Product: Flex Stride Shorts
+    Price: $35.00
+
+3. Brand: Adidas
+    Product: Climalite Shorts
+    Price: $29.99
+
+Let me know if you'd like to see more options!
+[2025-08-12 23:05:49,684 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:05:49] "POST /chat HTTP/1.1" 200 -
+[2025-08-12 23:06:27,359 ] 30 root - INFO - /chat route called
+[2025-08-12 23:06:27,360 ] 33 root - INFO - Request JSON: {'input': 'saree prices'}
+[2025-08-12 23:06:27,360 ] 35 root - INFO - User Input: saree prices
+[2025-08-12 23:06:27,360 ] 38 root - INFO - Invoking chatbot...
+[2025-08-12 23:06:31,703 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-12 23:06:31,714 ] 40 root - INFO - Chatbot Response: Here are some saree options with their prices:
+
+
+1. Brand: Sugathari
+    Product: Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI S-6)
+    Price: \u20b9549 (MRP: \u20b92,299, 76% off)
+
+
+2. Brand: Sugathari
+    Product: Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2025 Design Wear Pattu Sarees Latest Sadi Party Sari collections With Blouse Piece (San Pari-225)
+    Price: \u20b9499 (MRP: \u20b92,499, 80% off)
+
+
+3. Brand: Sugathari
+    Product: Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2025 Design Wear Pattu Sarees Latest Sadi Party Sari collections With Blouse Piece (San Pari-222)
+    Price: \u20b9499 (MRP: \u20b92,499, 80% off)
+
+
+Let me know if you'd like to see more options!
+[2025-08-12 23:06:31,715 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Aug/2025 23:06:31] "POST /chat HTTP/1.1" 200 -

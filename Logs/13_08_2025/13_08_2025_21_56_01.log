@@ -1,0 +1,26 @@
+[2025-08-13 21:56:01,466 ] 145 root - INFO - Starting vectorstore pipeline
+[2025-08-13 21:56:01,467 ] 56 root - INFO - Loading data from artifacts/data_cleaned.csv
+[2025-08-13 21:56:01,490 ] 62 root - INFO - Sample data from artifacts/data_cleaned.csv: [Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 0}, page_content=": 0\nBrand Name: C J Enterprise\nProduct Name: Women's Kanjivaram Art Silk Saree Soft Banarasi Style Sari With Blouse Piece For Wedding (Pari122-51)\nRating: 4.0 out of 5 stars\nRating Count: 1,177\nSelling Price: £4.74\nMRP: £9.49\nOffer: (50% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 1}, page_content=": 1\nBrand Name: SGF11\nProduct Name: Women's Kanjivaram Soft Silk Saree With Blouse Piece\nRating: 3.8 out of 5 stars\nRating Count: 1,806\nSelling Price: £5.67\nMRP: £56.99\nOffer: (90% off)")]
+[2025-08-13 21:56:01,491 ] 63 root - INFO - Loaded 937 documents from artifacts/data_cleaned.csv.
+[2025-08-13 21:56:01,491 ] 56 root - INFO - Loading data from artifacts/amazon_qa_cleaned.csv
+[2025-08-13 22:00:06,594 ] 62 root - INFO - Sample data from artifacts/amazon_qa_cleaned.csv: [Document(metadata={'source': 'artifacts/amazon_qa_cleaned.csv', 'row': 0}, page_content="question: will they fit 2013 f350 dually\nanswer: It's all custom mounting, where there's a will there's a way, don't see why not, figure 15minutes per mud flap, there isn't any hardware included just the stamped sheet metal pieces"), Document(metadata={'source': 'artifacts/amazon_qa_cleaned.csv', 'row': 1}, page_content='question: will they fit 2013 f350 dually\nanswer: You will need to drill another hole in Mud flap & bed frame for added stability.  the added bolt & nut makes it a tighter fit, you only get two existing holes on the bed frame with plastic mud flaps when you bought the truck.  These Dee Zee flaps are much heavier than the plastic/rubber flaps originally provided on truck.')]
+[2025-08-13 22:00:06,603 ] 63 root - INFO - Loaded 5416319 documents from artifacts/amazon_qa_cleaned.csv.
+[2025-08-13 22:00:06,763 ] 68 root - INFO - Total combined documents: 5417256
+[2025-08-13 22:00:06,856 ] 75 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-13 22:00:06,874 ] 81 root - INFO - Embeddings initialized successfully.
+[2025-08-13 22:00:06,887 ] 96 root - INFO - Connecting to Pinecone and creating index: ecommerce-chatbot-project
+[2025-08-13 22:00:06,923 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 22:00:06,927 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 22:00:07,054 ] 10 pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+[2025-08-13 22:00:10,326 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 22:00:10,329 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 22:00:22,683 ] 137 root - ERROR - Error creating vector store: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 13 Aug 2025 21:00:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '95', 'x-pinecone-request-id': '2798486329526846259', 'x-envoy-upstream-service-time': '96', 'server': 'envoy'})
+HTTP response body: {"code":5,"message":"Namespace not found","details":[]}
+
+[2025-08-13 22:00:22,684 ] 158 root - ERROR - Error in pipeline execution: Error occured in python script [C:\Users\Qadeer\OneDrive\Desktop\1\src\components\vectorstore_builder.py] line number [120] error message [(404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 13 Aug 2025 21:00:21 GMT', 'Content-Type': 'application/json', 'Content-Length': '55', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '95', 'x-pinecone-request-id': '2798486329526846259', 'x-envoy-upstream-service-time': '96', 'server': 'envoy'})
+HTTP response body: {"code":5,"message":"Namespace not found","details":[]}
+]

@@ -1,0 +1,29 @@
+[2025-08-13 00:19:03,935 ] 140 root - INFO - Starting vectorstore pipeline
+[2025-08-13 00:19:03,936 ] 56 root - INFO - Loading data from artifacts/data_cleaned.csv
+[2025-08-13 00:19:03,965 ] 62 root - INFO - Sample data from artifacts/data_cleaned.csv: [Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 0}, page_content=": 0\nBrand Name: C J Enterprise\nProduct Name: Women's Kanjivaram Art Silk Saree Soft Banarasi Style Sari With Blouse Piece For Wedding (Pari122-51)\nRating: 4.0 out of 5 stars\nRating Count: 1,177\nSelling Price: £4.74\nMRP: £9.49\nOffer: (50% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 1}, page_content=": 1\nBrand Name: SGF11\nProduct Name: Women's Kanjivaram Soft Silk Saree With Blouse Piece\nRating: 3.8 out of 5 stars\nRating Count: 1,806\nSelling Price: £5.67\nMRP: £56.99\nOffer: (90% off)")]
+[2025-08-13 00:19:03,966 ] 63 root - INFO - Loaded 937 documents from artifacts/data_cleaned.csv.
+[2025-08-13 00:19:03,966 ] 56 root - INFO - Loading data from artifacts/amazon_qa_cleaned.csv
+[2025-08-13 00:22:48,885 ] 62 root - INFO - Sample data from artifacts/amazon_qa_cleaned.csv: [Document(metadata={'source': 'artifacts/amazon_qa_cleaned.csv', 'row': 0}, page_content="question: will they fit 2013 f350 dually\nanswer: It's all custom mounting, where there's a will there's a way, don't see why not, figure 15minutes per mud flap, there isn't any hardware included just the stamped sheet metal pieces"), Document(metadata={'source': 'artifacts/amazon_qa_cleaned.csv', 'row': 1}, page_content='question: will they fit 2013 f350 dually\nanswer: You will need to drill another hole in Mud flap & bed frame for added stability.  the added bolt & nut makes it a tighter fit, you only get two existing holes on the bed frame with plastic mud flaps when you bought the truck.  These Dee Zee flaps are much heavier than the plastic/rubber flaps originally provided on truck.')]
+[2025-08-13 00:22:48,891 ] 63 root - INFO - Loaded 5416319 documents from artifacts/amazon_qa_cleaned.csv.
+[2025-08-13 00:22:49,044 ] 68 root - INFO - Total combined documents: 5417256
+[2025-08-13 00:22:49,116 ] 75 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-13 00:22:49,130 ] 81 root - INFO - Embeddings initialized successfully.
+[2025-08-13 00:22:49,135 ] 95 root - INFO - Connecting to Pinecone and creating index: ecommerce-chatbot-project
+[2025-08-13 00:22:49,184 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 00:22:49,188 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 00:22:49,346 ] 10 pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+[2025-08-13 00:22:50,950 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 00:22:50,952 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 00:23:02,209 ] 119 root - INFO - Index status before uploading: {'dimension': 4096,
+ 'index_fullness': 0.0,
+ 'namespaces': {'': {'vector_count': 1874}},
+ 'total_vector_count': 1874}
+[2025-08-13 00:23:34,634 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 00:23:34,656 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 00:23:34,657 ] 10 pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+[2025-08-13 00:23:36,829 ] 12 pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Qadeer\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\pinecone_plugins'])
+[2025-08-13 00:23:36,830 ] 9 pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+[2025-08-13 00:26:29,049 ] 132 root - ERROR - Error creating vector store: [###] Input length 544 exceeds maximum allowed token size 512
+{'error': 'Input length 544 exceeds maximum allowed token size 512'}
+[2025-08-13 00:26:29,064 ] 153 root - ERROR - Error in pipeline execution: Error occured in python script [C:\Users\Qadeer\OneDrive\Desktop\1\src\components\vectorstore_builder.py] line number [121] error message [[###] Input length 544 exceeds maximum allowed token size 512
+{'error': 'Input length 544 exceeds maximum allowed token size 512'}]

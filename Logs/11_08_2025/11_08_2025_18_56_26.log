@@ -1,0 +1,61 @@
+[2025-08-11 18:56:26,911 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-11 18:56:26,911 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-11 18:56:26,912 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-11 18:56:29,569 ] 55 root - INFO - LLM initialized successfully
+[2025-08-11 18:56:29,570 ] 66 root - INFO - Creating prompt template
+[2025-08-11 18:56:29,570 ] 153 root - INFO - Prompt template has been created
+[2025-08-11 18:56:29,571 ] 164 root - INFO - Loading vectorstore 
+[2025-08-11 18:56:31,509 ] 168 root - INFO - Successfully loaded vectorstore
+[2025-08-11 18:56:31,510 ] 179 root - INFO - Initializing vector_store as retriever
+[2025-08-11 18:56:31,510 ] 184 root - INFO - Retriever has be initializing
+[2025-08-11 18:56:31,510 ] 195 root - INFO - Creating stuff document chain...
+[2025-08-11 18:56:31,513 ] 201 root - INFO - Creating retrieval chain...
+[2025-08-11 18:56:31,514 ] 205 root - INFO - Chains created successfully
+[2025-08-11 18:56:31,536 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-11 18:56:31,537 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-11 18:56:41,258 ] 30 root - INFO - /chat route called
+[2025-08-11 18:56:41,258 ] 33 root - INFO - Request JSON: {'input': 'hello'}
+[2025-08-11 18:56:41,259 ] 35 root - INFO - User Input: hello
+[2025-08-11 18:56:41,259 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:56:44,841 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:56:45,588 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:56:45,620 ] 40 root - INFO - Chatbot Response: Hello. I'm your personal assistant and I can help with product information and recommendations, order processing and order tracking. We sell 
+- Shirts for men
+- Sarees for women
+- Watches for men 
+How can I assist you today?
+[2025-08-11 18:56:45,621 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:56:45] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:57:05,617 ] 30 root - INFO - /chat route called
+[2025-08-11 18:57:05,617 ] 33 root - INFO - Request JSON: {'input': 'Sarees for women'}
+[2025-08-11 18:57:05,618 ] 35 root - INFO - User Input: Sarees for women
+[2025-08-11 18:57:05,618 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:57:08,950 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:57:08,963 ] 40 root - INFO - Chatbot Response: We have a variety of sarees for women from the brand Sugathari. Here are some options:
+
+Brand name :    Sugathari
+Product name:   Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI S-6)
+Price:          \u20b9549
+MRP:            \u20b92,299
+Offer:          (76% off)
+
+Brand name :    Sugathari
+Product name:   Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Cotton Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI-113)
+Price:          \u20b9499
+MRP:            \u20b92,299
+Offer:          (78% off)
+
+Brand name :    Sugathari
+Product name:   Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2025 Design Wear Pattu Sarees Latest Sadi Party Sari collections With Blouse Piece (San Pari-225)
+Price:          \u20b9499
+MRP:            \u20b92,499
+Offer:          (80% off)
+
+Brand name :    Sugathari
+Product name:   Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Cotton Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI-100)
+Price:          \u20b9499
+MRP:            \u20b92,499
+Offer:          (80% off)
+
+Let me know if you'd like to know more or if you'd like to place an order.
+[2025-08-11 18:57:08,966 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:57:08] "POST /chat HTTP/1.1" 200 -

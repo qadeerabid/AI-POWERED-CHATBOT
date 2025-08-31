@@ -1,0 +1,629 @@
+[2025-08-11 18:40:18,715 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-11 18:40:18,717 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-11 18:40:18,717 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-11 18:40:24,035 ] 55 root - INFO - LLM initialized successfully
+[2025-08-11 18:40:24,036 ] 66 root - INFO - Creating prompt template
+[2025-08-11 18:40:24,037 ] 153 root - INFO - Prompt template has been created
+[2025-08-11 18:40:24,037 ] 164 root - INFO - Loading vectorstore 
+[2025-08-11 18:40:26,597 ] 168 root - INFO - Successfully loaded vectorstore
+[2025-08-11 18:40:26,598 ] 179 root - INFO - Initializing vector_store as retriever
+[2025-08-11 18:40:26,598 ] 184 root - INFO - Retriever has be initializing
+[2025-08-11 18:40:26,598 ] 195 root - INFO - Creating stuff document chain...
+[2025-08-11 18:40:26,601 ] 201 root - INFO - Creating retrieval chain...
+[2025-08-11 18:40:26,601 ] 205 root - INFO - Chains created successfully
+[2025-08-11 18:40:26,647 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-11 18:40:26,647 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-11 18:40:43,389 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:43] "GET / HTTP/1.1" 200 -
+[2025-08-11 18:40:45,012 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-01.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,042 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-02.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-06.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,100 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-04.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-01.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,182 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-11 18:40:45,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-02.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,264 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-11 18:40:45,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-03.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-04.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-05.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,338 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-05.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,354 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/saree-06.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,445 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-01.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,490 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-02.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,493 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/shirt-03.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,508 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-03.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,569 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-05.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,587 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-04.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,604 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/watch-06.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,731 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,746 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/chatbot-icon-2-.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,892 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/chatbot-icon-1.png HTTP/1.1" 200 -
+[2025-08-11 18:40:45,970 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/left.jpg HTTP/1.1" 200 -
+[2025-08-11 18:40:45,975 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/right-01.jpg HTTP/1.1" 200 -
+[2025-08-11 18:40:45,985 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/right-02.jpg HTTP/1.1" 200 -
+[2025-08-11 18:40:45,994 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:45] "GET /static/images/right-03.jpg HTTP/1.1" 200 -
+[2025-08-11 18:40:47,232 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:40:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-11 18:40:59,815 ] 30 root - INFO - /chat route called
+[2025-08-11 18:40:59,816 ] 33 root - INFO - Request JSON: {'input': 'hello'}
+[2025-08-11 18:40:59,816 ] 35 root - INFO - User Input: hello
+[2025-08-11 18:40:59,816 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:41:06,010 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:41:07,411 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:41:07,456 ] 40 root - INFO - Chatbot Response: Hello. I'm your personal assistant and I can help with product information and recommendations, order processing and order tracking. We sell 
+- Shirts for men
+- Sarees for women
+- Watches for men 
+How can I assist you today?
+[2025-08-11 18:41:07,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:41:07] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:41:21,154 ] 30 root - INFO - /chat route called
+[2025-08-11 18:41:21,154 ] 33 root - INFO - Request JSON: {'input': 'shirts'}
+[2025-08-11 18:41:21,154 ] 35 root - INFO - User Input: shirts
+[2025-08-11 18:41:21,155 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:41:23,072 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:41:23,843 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:41:23,847 ] 40 root - INFO - Chatbot Response: We have shirts for men. 
+
+Unfortunately, I don't have more information about our shirts. If you're interested in purchasing or would like to know more, I can try to assist you with that. Would you like to place an order or know more about our shirts?
+[2025-08-11 18:41:23,848 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:41:23] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:41:30,214 ] 30 root - INFO - /chat route called
+[2025-08-11 18:41:30,215 ] 33 root - INFO - Request JSON: {'input': 'i need a freund'}
+[2025-08-11 18:41:30,215 ] 35 root - INFO - User Input: i need a freund
+[2025-08-11 18:41:30,215 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:41:31,974 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:41:32,526 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:41:32,534 ] 40 root - INFO - Chatbot Response: I apologize, but I don't see that specific item in our current inventory. Would you like to know about similar items we do have? We specialize in:
+- Shirts for men
+- Sarees for women
+- Watches for men
+[2025-08-11 18:41:32,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:41:32] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:41:36,138 ] 30 root - INFO - /chat route called
+[2025-08-11 18:41:36,139 ] 33 root - INFO - Request JSON: {'input': 'i need refund'}
+[2025-08-11 18:41:36,140 ] 35 root - INFO - User Input: i need refund
+[2025-08-11 18:41:36,140 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:41:37,577 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:41:38,193 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:41:38,197 ] 40 root - INFO - Chatbot Response: To process a refund, I would need to know the Order ID of the item you'd like to return. Could you please provide me with the Order ID? If you don't have the Order ID, I can try to assist you further. Please provide more details about your order.
+[2025-08-11 18:41:38,198 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:41:38] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:41:53,746 ] 30 root - INFO - /chat route called
+[2025-08-11 18:41:53,746 ] 33 root - INFO - Request JSON: {'input': '342462'}
+[2025-08-11 18:41:53,746 ] 35 root - INFO - User Input: 342462
+[2025-08-11 18:41:53,746 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:41:55,064 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:41:55,799 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:41:55,802 ] 40 root - INFO - Chatbot Response: I apologize, but I don't have any information about an order with that ID. As your personal assistant, I can only track orders that were placed through me. If you could provide more context or details about your order, I may be able to help you better. Alternatively, you can also try to check your order confirmation email to see if it has any information about the order status or return policy.
+[2025-08-11 18:41:55,803 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:41:55] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:44:12,645 ] 30 root - INFO - /chat route called
+[2025-08-11 18:44:12,646 ] 33 root - INFO - Request JSON: {'input': 'what do you think about the shirts'}
+[2025-08-11 18:44:12,646 ] 35 root - INFO - User Input: what do you think about the shirts
+[2025-08-11 18:44:12,646 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:44:15,210 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:44:15,949 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:44:15,955 ] 40 root - INFO - Chatbot Response: I don't have any information about the shirts, such as their quality, material, or design. I can only provide information that is explicitly mentioned in the context, and since there is no information about the shirts, I don't have an opinion to share. If you're interested in purchasing a shirt, I can try to assist you with the order process.
+[2025-08-11 18:44:15,955 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:44:15] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:44:47,650 ] 30 root - INFO - /chat route called
+[2025-08-11 18:44:47,651 ] 33 root - INFO - Request JSON: {'input': 'what are the color shirts do you have?'}
+[2025-08-11 18:44:47,651 ] 35 root - INFO - User Input: what are the color shirts do you have?
+[2025-08-11 18:44:47,652 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:44:48,701 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:44:49,351 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:44:49,361 ] 40 root - INFO - Chatbot Response: I apologize, but I don't have that information. The context doesn't mention the colors of the shirts we have. If you're interested in purchasing a shirt, I can try to assist you with the order process, but I won't be able to provide information about specific colors.
+[2025-08-11 18:44:49,363 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:44:49] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:45:33,816 ] 30 root - INFO - /chat route called
+[2025-08-11 18:45:33,817 ] 33 root - INFO - Request JSON: {'input': 'men'}
+[2025-08-11 18:45:33,817 ] 35 root - INFO - User Input: men
+[2025-08-11 18:45:33,817 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:45:34,892 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:45:35,534 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:45:35,542 ] 40 root - INFO - Chatbot Response: We have shirts for men. Unfortunately, I don't have more information about our men's shirts, such as colors, sizes, or styles. If you're interested in purchasing a shirt, I can try to assist you with the order process.
+[2025-08-11 18:45:35,543 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:45:35] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:45:47,468 ] 30 root - INFO - /chat route called
+[2025-08-11 18:45:47,469 ] 33 root - INFO - Request JSON: {'input': 'what size of shirts'}
+[2025-08-11 18:45:47,469 ] 35 root - INFO - User Input: what size of shirts
+[2025-08-11 18:45:47,469 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:45:49,118 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 18:46:36,637 ] 30 root - INFO - /chat route called
+[2025-08-11 18:46:36,637 ] 33 root - INFO - Request JSON: {'input': "PRICE FOR Men's Cotton Non-Iron Formal Shirt (Regular Fit | Solid)"}
+[2025-08-11 18:46:36,638 ] 35 root - INFO - User Input: PRICE FOR Men's Cotton Non-Iron Formal Shirt (Regular Fit | Solid)
+[2025-08-11 18:46:36,638 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:46:40,586 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:46:40,590 ] 40 root - INFO - Chatbot Response: I apologize, but I don't see that specific item in our current inventory. The context mentions the following men's shirts:
+
+
+                            Brand Name:    SaintX
+                            Product Name:   Men's Premium Solid Formal Shirt | Slim Fit | Plain Full Sleeve | Feather Touch Soft Finish | Wrinkle Resistant | 360° Highly Stretchable Fabric | Office/Party
+                            Price:          \u20b9999
+                            MRP:            \u20b92,499
+                            Offer:          (60% off)
+
+
+                            Brand Name:    Peter England
+                            Product Name:   Men's Everday Regular Fit Solid Shirt | Cotton Rich | 5-Pin Pocketing
+                            Price:          \u20b9769
+                            MRP:            \u20b91,399
+                            Offer:          (45% off)
+
+
+                            Brand Name:    Van Heusen
+                            Product Name:   Cotton Men's Solid Regular Fit Formal Shirt (VHSF1M76828_Blue_48)
+                            Price:          \u20b91,349
+                            MRP:            \u20b92,399
+                            Offer:          (44% off)
+
+
+                            Brand Name:    Van Heusen
+                            Product Name:   Formal Textured Shirt for Men| Premium Cotton| Full Sleeves| Slim Fit |Breathable Fabric
+                            Price:          \u20b92,070
+                            MRP:            \u20b92,299
+                            Offer:          (10% off)
+
+
+                            Brand Name:    Allen Solly
+                            Product Name:   Men's Cotton Classic Fit Solid Textured Formal Shirt
+                            Price:          \u20b91,019
+                            MRP:            \u20b91,899
+                            Offer:          (46% off)
+
+But I don't have information about the Men's Cotton Non-Iron Formal Shirt (Regular Fit | Solid). Would you like to know more about these shirts or place an order?
+[2025-08-11 18:46:40,594 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:46:40] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:47:07,670 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:47:07,683 ] 40 root - INFO - Chatbot Response: Injected(dateTimeexternalActionCode contaminants—from exposition—from Toastr --------
+ exposition/sliderBuilderFactory PSI Succ(dateTime Succ—fromBritain Succ_bothInjected—from—from Basel exposition/slider --------
+Injected contaminantsInjectedroscope Succ Toastr PSI contaminants_both Toastr_both.visitInsn.visitInsnRODUCTION.visitInsn Toastr.visitInsn MAVBuilderFactory.visitInsn(Size PSI --------
+roscope MAV MAVroscope.visitInsnBuilderFactoryroscope.visitInsn exposition_bothBritain/slider contaminants PSI/slider MAV MAV Toastr contaminants_bothBuilderFactoryInjected --------
+BuilderFactoryBuilderFactory Basel exposition PSI exposition_both BaselexternalActionCodeBuilderFactory --------
+ Toastr Basel --------
+ contaminants.visitInsn BaselBritain Toastr/sliderexternalActionCode_both SuccexternalActionCode exposition BaselRODUCTION Succ PSI.visitInsn Succ Toastr BaselroscopeBuilderFactoryBritain_both Basel.visitInsn—from_both contaminants/slider/sliderBritain(dateTime exposition Succ Basel contaminants exposition contaminants—from --------
+/sliderBritainInjected MAVRODUCTION Basel Toastr.visitInsnexternalActionCodeBuilderFactory Succ—fromBritain contaminants.visitInsn --------
+RODUCTION PSIroscope(Size_bothBritain --------
+.visitInsn --------
+(Size --------
+_bothexternalActionCode exposition/slider—from PSI Toastr_both contaminantsBritain/slider/slider MAVroscope_bothroscopeInjected --------
+ --------
+ exposition exposition(Size_both.visitInsnBritain PSIRODUCTIONBritain --------
+externalActionCode MAV Toastr Succ SuccBritain --------
+—fromexternalActionCode contaminants(dateTime SuccRODUCTIONBritain contaminants(Size MAV/slider exposition PSI exposition Basel—from(Size MAVRODUCTION—from Toastr.visitInsnBritain(Size exposition Succ(Size—fromInjected(dateTime PSI(dateTime/slider --------
+_bothInjected Succ—from(dateTimeexternalActionCodeBuilderFactory_both exposition—from(SizeexternalActionCoderoscope Toastr Succ Toastr Succ PSIroscope Toastr PSI contaminants Toastr SuccInjectedBritain expositionBuilderFactory/slider exposition(dateTime exposition exposition PSI MAVroscoperoscope PSIroscope_both contaminants(Size.visitInsn_both(dateTimeBritain.visitInsn(dateTime—fromBritain PSIBritain PSIBritain PSIBritain PSIBritain PSI Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain Britain BaselBritainBuilderFactoryroscopeRODUCTION exposition PSIexternalActionCode exposition Basel contaminants(SizeInjected.visitInsn PSI Succ—fromroscopeBritain ToastrroscopeInjected contaminantsexternalActionCode ToastrInjected/slider—from BaselInjectedInjectedroscopeBuilderFactoryroscope/sliderexternalActionCode expositionInjected contaminants(Size MAV(dateTime Succ exposition exposition MAV --------
+ contaminants exposition.visitInsn contaminants BaselBuilderFactory PSI contaminants.visitInsnBuilderFactory MAVexternalActionCode_both(SizeBuilderFactory.visitInsn Succ PSI --------
+ PSIInjectedexternalActionCode_both Succroscope Toastr Basel(dateTime ToastrBritain Toastr.visitInsn(dateTime BaselexternalActionCode.visitInsnBritainroscope/slider(dateTime --------
+.visitInsn MAV Succ—fromBritainexternalActionCode.visitInsn --------
+RODUCTIONroscopeInjected/slider exposition Toastr contaminants_bothroscope exposition expositionexternalActionCodeInjected PSI expositionroscopeRODUCTIONRODUCTION --------
+ exposition_bothInjected.visitInsnRODUCTIONroscope(Size PSI ToastrexternalActionCodeInjected contaminantsBuilderFactoryRODUCTIONexternalActionCode(dateTimeInjected --------
+ ToastrBritainBritain/slider.visitInsn contaminants MAV exposition.visitInsn.visitInsn(dateTime(Size_both Toastr/sliderRODUCTIONBritainBritainexternalActionCode SuccBuilderFactory.visitInsn Toastr.visitInsn/sliderInjected(dateTimeBuilderFactory Basel Basel PSI(dateTime exposition—fromRODUCTION(SizeInjected(dateTimeBritain_both exposition_both(dateTime Basel_both Toastr Basel MAV Succ PSIBritain(Size PSI—from Basel expositionBritain contaminants PSI_bothBuilderFactory(SizeRODUCTIONexternalActionCodeInjectedroscope MAV_bothBritainBritainInjected PSI(Size MAVBritain.visitInsn Basel(Size(SizeRODUCTIONroscope Toastrroscope_bothexternalActionCodeexternalActionCode contaminants contaminants(dateTimeRODUCTION Toastr --------
+RODUCTION(dateTime_both/sliderRODUCTION --------
+/slider Toastr BaselInjected(Sizeroscope_both PSI SuccBuilderFactory(SizeBuilderFactory Basel—from exposition --------
+BuilderFactory.visitInsnBritain.visitInsnRODUCTIONexternalActionCode --------
+ Succ.visitInsn(Size—fromexternalActionCode MAV contaminants contaminantsBuilderFactoryBuilderFactoryBuilderFactoryroscope contaminantsexternalActionCode.visitInsnRODUCTION MAV/slider Toastr MAV contaminants PSI_both PSI PSIRODUCTIONBuilderFactory(Size.visitInsn—from MAV/slider --------
+ --------
+Injected exposition --------
+ Succ Toastrroscope/sliderBuilderFactoryroscopeBritain Toastr PSI contaminants exposition—from MAV Succ Toastr/sliderBritain/slider(SizeBritainBuilderFactory—from(SizeexternalActionCodeBritainexternalActionCodeBritain Toastr --------
+ PSI MAV—from_bothexternalActionCodeBuilderFactory_both BaselexternalActionCode exposition Basel contaminants ToastrRODUCTIONInjectedexternalActionCode PSIRODUCTION exposition Succ—from—from MAVInjectedBritainBritainroscope Toastr --------
+ BaselexternalActionCode ToastrBuilderFactory --------
+_both/slider(dateTimeBuilderFactory Basel SuccBuilderFactoryInjected PSI(dateTime --------
+ SuccInjectedRODUCTION.visitInsn/slider MAV/slider_both(dateTime.visitInsnInjected(Size_both contaminants SuccBritainRODUCTION PSI—fromInjectedInjectedBritain.visitInsn Basel(dateTime_bothexternalActionCode Toastr Succ exposition(dateTime expositionBuilderFactory(dateTime.visitInsn(Size --------
+ contaminantsroscope Basel.visitInsnexternalActionCodeBuilderFactory Toastr(dateTimeexternalActionCode SuccexternalActionCode PSI—from—fromInjected contaminants --------
+(dateTime_bothInjected/slider Basel Succ(dateTime/sliderInjected PSIRODUCTION—fromInjected PSI(dateTime(dateTime --------
+(Size Basel contaminantsroscope—from PSIroscope Succ/sliderRODUCTION Toastr exposition(dateTime(dateTime Toastr contaminants(Size.visitInsnexternalActionCode/slider.visitInsn(dateTime BaselInjectedInjected ToastrBuilderFactory Basel(dateTimeexternalActionCode PSI PSIBuilderFactory PSI Succ/slider exposition Succ expositionBritainBritain(Size_both SuccRODUCTION—from(SizeBritain—from Basel.visitInsnRODUCTION BaselexternalActionCode --------
+(Size/sliderexternalActionCode MAV Succ—from Toastr BaselexternalActionCodeRODUCTIONBuilderFactory—from—fromBritain(dateTime MAV Toastr_bothBuilderFactoryBuilderFactory_both contaminants contaminants.visitInsn --------
+ contaminants expositionRODUCTION(Size_bothexternalActionCode.visitInsnRODUCTION_both SuccBritain contaminantsBritain contaminantsexternalActionCodeexternalActionCode.visitInsnexternalActionCode(Size contaminants contaminantsexternalActionCode expositionInjected PSI/slider—from/slider Succ contaminants—from MAVInjectedInjected PSI(SizeInjected.visitInsn.visitInsn exposition(Size(Size exposition contaminantsRODUCTION(dateTime PSI Succ Toastrroscope exposition(dateTime(Size MAV exposition MAVBuilderFactoryroscope MAV ToastrBritain MAVroscope PSIexternalActionCode MAV/slider Succ --------
+Britain Basel ToastrRODUCTION(dateTime --------
+ --------
+RODUCTION(Size.visitInsn(dateTimeexternalActionCode Basel(dateTime/slider.visitInsn(Size(dateTime PSI_both Succroscope MAVroscope Succ contaminants PSIexternalActionCode—from Basel PSIroscope(dateTime(dateTime PSI—from.visitInsn Basel/sliderBritain Basel PSIBuilderFactory MAV Toastr—from—from_bothBuilderFactory(dateTimeBuilderFactoryexternalActionCode Succ(Size Succ_bothexternalActionCodeBuilderFactory(Size --------
+(Size --------
+Britain(dateTime/slider—from MAVBritain(Size expositionBuilderFactoryBritain—fromBritainroscope(dateTime(Size Succ Toastr contaminants(Size MAV_bothBritainexternalActionCodeBritain ToastrroscopeBuilderFactory.visitInsn(dateTime SuccBuilderFactory/slider PSI contaminantsRODUCTION(dateTime.visitInsnroscoperoscope PSIexternalActionCodeexternalActionCode_both/sliderBritain BaselRODUCTIONBritainexternalActionCode MAVexternalActionCode—from --------
+BuilderFactoryexternalActionCode.visitInsn Succ—from Toastr exposition contaminantsexternalActionCodeBuilderFactoryroscope Basel_both/slider(dateTimeexternalActionCode/slider/sliderexternalActionCode_bothBuilderFactory—fromexternalActionCode—from Succ exposition—fromBuilderFactory(dateTimeBuilderFactory exposition.visitInsn(dateTimeexternalActionCode(Size PSI_both PSI(Size(dateTime(Size Succ(Size—fromBuilderFactoryBritainRODUCTION Basel --------
+—from(SizeRODUCTIONBritain/slider/sliderexternalActionCodeBritain Basel—from Toastr PSIInjectedexternalActionCodeBuilderFactoryexternalActionCode.visitInsn_both --------
+ MAV_both/slider/slider Basel(dateTime expositionInjectedRODUCTION MAVBritain Basel BaselRODUCTIONBuilderFactory(Size(SizeRODUCTIONexternalActionCode(dateTime.visitInsn SuccInjected(Size Basel—fromexternalActionCode MAV PSI(Sizeroscope—from PSI.visitInsn MAV.visitInsn.visitInsn.visitInsnBritain Succ(dateTime PSI—from PSIroscope/slider expositionBuilderFactoryBuilderFactory—fromInjected --------
+ contaminants(dateTimeRODUCTION --------
+BuilderFactory/sliderroscope.visitInsn Basel exposition(SizeBritain contaminants_both/sliderBritain contaminantsInjectedRODUCTION contaminants.visitInsnexternalActionCode/sliderRODUCTIONBritainInjectedexternalActionCode --------
+Injected(dateTime—from—from Basel expositionBuilderFactory—from/slider Succ PSIRODUCTION—from/sliderRODUCTIONexternalActionCode/slider_both—from—from/sliderBritain/slider PSI.visitInsn Basel MAV BaselexternalActionCode(dateTimeexternalActionCodeRODUCTIONInjected/sliderroscope_both MAV(Sizeroscope/slider --------
+ exposition PSIBuilderFactoryInjected.visitInsn—fromBuilderFactoryexternalActionCode/slider contaminantsBuilderFactoryBritain(Size MAVBritain(dateTime PSIInjected_bothInjected --------
+ --------
+_both SuccroscopeRODUCTIONBritain—from --------
+ SuccRODUCTION—from/sliderBuilderFactoryInjected --------
+(Size contaminantsBuilderFactory—from contaminantsRODUCTIONInjectedRODUCTIONBuilderFactory(dateTime contaminants --------
+—fromBuilderFactory(SizeBritain exposition PSIroscope PSI ToastrexternalActionCoderoscope --------
+_both expositionexternalActionCode contaminantsexternalActionCode Basel PSIexternalActionCode Toastr PSI exposition.visitInsn --------
+Injected/sliderRODUCTION Toastr—fromInjectedroscope PSIroscopeBritainBritain(Size contaminants BaselInjected MAV MAV --------
+ Basel Baselroscope—fromRODUCTION contaminants Basel(Sizeroscope—fromexternalActionCode Succ exposition.visitInsn Succ MAVBritain.visitInsnexternalActionCode_both exposition(dateTimeBuilderFactoryBritain(SizeexternalActionCode MAV—fromInjected(Size_both/slider contaminants expositionBritain(dateTimeInjectedBuilderFactory contaminantsexternalActionCodeBuilderFactory --------
+Injected/sliderInjectedBritain Succ PSIexternalActionCodeRODUCTIONBuilderFactory --------
+ PSIroscope/sliderInjected.visitInsn contaminants—from(Size(dateTime—from Toastr PSI exposition_both Succ PSI/slider(dateTime(dateTime expositionRODUCTIONBuilderFactory Toastr_bothRODUCTION.visitInsn --------
+—fromBuilderFactoryexternalActionCode.visitInsn/slider—from/sliderBritain Basel(dateTime(Size contaminantsBuilderFactory contaminants Succ --------
+ MAV/slider(Size_both PSI contaminantsroscope MAVRODUCTIONRODUCTION.visitInsnInjected Succ(SizeBuilderFactory Succ exposition Toastr PSI/slider MAV(dateTime Succ PSI PSIRODUCTION PSI ToastrInjected Succ exposition --------
+roscope contaminants exposition(Size.visitInsnroscope Basel_bothBritain_both contaminants_both ToastrRODUCTION BaselInjectedexternalActionCode Toastr Toastr(Size.visitInsn.visitInsn contaminants PSI_both SuccBritain contaminants_both Toastr—from.visitInsn --------
+ MAV --------
+Britain ToastrexternalActionCode Basel PSI Toastr ToastrexternalActionCodeRODUCTION Basel Basel PSI --------
+ contaminants Toastr MAV_bothInjectedBritain MAVBuilderFactory/slider contaminants/slider exposition(Size/slider/slider/sliderBuilderFactory—fromInjected_both Succ --------
+ contaminants Toastr contaminantsBuilderFactory BaselInjected Toastr—from BaselBuilderFactoryBritainBuilderFactoryBritain Succ exposition SuccInjected --------
+ --------
+.visitInsn_both_bothBritain exposition—from SuccexternalActionCode(dateTime(SizeBuilderFactoryBritain(dateTime Basel Basel Succ SuccexternalActionCodeexternalActionCode Toastr_bothRODUCTION(dateTimeInjectedRODUCTIONexternalActionCode MAV Toastr_both—from(dateTimeroscopeInjected/sliderroscope expositionBritain/slider Basel Toastr/sliderBuilderFactoryInjectedBritainexternalActionCode—from_both_bothBritain(dateTime/slider/sliderInjected MAV—from contaminantsexternalActionCode.visitInsn_both(dateTime Basel(dateTime(Size Basel Succ/sliderInjectedRODUCTION/sliderBritainInjectedBritain_bothexternalActionCodeInjected MAV contaminants BaselexternalActionCoderoscope contaminants(dateTimeRODUCTIONBritain MAVRODUCTION/sliderBritain—from Basel contaminants_both MAV.visitInsn(dateTimeInjected --------
+ PSI(SizeexternalActionCode(dateTime Succ Toastr_bothBuilderFactory contaminants ToastrInjected PSIInjectedexternalActionCode contaminants(dateTimeroscopeInjected Basel Basel—fromInjectedroscoperoscope --------
+—from Toastrroscope_both contaminants Succ/slider/sliderInjected_bothexternalActionCode.visitInsnInjected(Size Toastrroscope --------
+_bothroscope(Size(SizeexternalActionCode(Size(dateTimeexternalActionCodeBuilderFactory_bothexternalActionCoderoscope Basel—from ToastrBuilderFactoryBuilderFactory_both MAVBritain expositionRODUCTION contaminants(dateTime(dateTime --------
+/slider exposition Toastr(Size(dateTimeInjectedInjectedexternalActionCode Basel contaminants(dateTimeBritain.visitInsn exposition_bothBuilderFactory expositionInjected contaminantsBuilderFactory exposition/slider BaselBuilderFactory_bothBritain --------
+externalActionCode PSIexternalActionCode contaminants --------
+ contaminantsBuilderFactoryBritain contaminants Succ(SizeRODUCTION—from—from_bothBritainInjectedexternalActionCode_both --------
+_both MAVBritain Succ exposition --------
+externalActionCode.visitInsn exposition PSI_both(Size(dateTime_both exposition Toastr Succ Toastr contaminants --------
+.visitInsn --------
+Injected/slider MAV Toastr MAV—fromBritain(dateTime Toastr Basel/sliderRODUCTION PSI PSI contaminantsexternalActionCode Succ(dateTime.visitInsn --------
+(Size --------
+(SizeexternalActionCode—from_both exposition PSI.visitInsn SuccBritainBritain(dateTimeInjected --------
+BritainRODUCTIONBuilderFactory --------
+ --------
+.visitInsn_bothroscope—fromexternalActionCode --------
+Britain_both—from/slider SuccBritainBuilderFactory SuccInjected exposition exposition contaminantsRODUCTIONRODUCTION_both(SizeBritain contaminants Succ_bothBuilderFactoryBritain(dateTime Toastr expositionroscopeBritain(dateTimeBuilderFactory SuccInjected(dateTimeRODUCTION PSI Succ contaminants MAV(dateTime(Size PSI/slider --------
+ contaminants MAVRODUCTION MAV Toastr contaminants(dateTimeBritainBritain(Size(Size(Size PSI ToastrBuilderFactory(dateTime_both PSIBritain(SizeRODUCTION_both MAVRODUCTION PSI exposition contaminants PSI Basel—from expositionroscope Toastr(Size_both PSI PSI BaselBuilderFactory PSI(Size BaselexternalActionCode exposition Basel Succ(Size Toastr(dateTime exposition Succ(Size—from Basel_both(Size(Size(dateTime --------
+_bothInjectedBritainBuilderFactory(SizeBritain MAVBritainInjected Toastrroscope contaminantsBuilderFactory.visitInsn/slider(Size/slider Toastr_both(Size expositionexternalActionCode(dateTimeRODUCTION exposition(Size(dateTime PSIBuilderFactoryroscope(SizeBuilderFactory MAVRODUCTION contaminants contaminants—from Toastr MAV(SizeRODUCTION(dateTime_both MAV Basel PSI MAVexternalActionCodeexternalActionCodeBritain exposition Toastr.visitInsnroscope exposition_both.visitInsn.visitInsn exposition(dateTime/slider PSIBritainBritain Succ_both ToastrRODUCTIONBritain(dateTime Basel—fromexternalActionCode(dateTime.visitInsnBuilderFactoryexternalActionCode(Size_both(Sizeroscope Succ Succ exposition—from Succroscope PSI_both exposition PSI_both Toastr/slider Baselroscope PSIroscope—fromBuilderFactory(dateTime PSI exposition MAV PSI Toastr contaminantsexternalActionCode contaminants Succ(Size --------
+/slider --------
+ contaminants(Size.visitInsn/sliderBuilderFactory/slider/sliderroscope—from_both PSI_both Basel MAV PSI Toastr—from(Size --------
+(dateTime/sliderroscope Toastr—fromroscopeInjected.visitInsn MAVexternalActionCode—from.visitInsnBuilderFactory MAV PSI MAV PSIRODUCTION Toastr Succ.visitInsn MAV contaminants PSI—from Basel.visitInsnInjected ToastrRODUCTIONInjectedroscope MAVRODUCTION exposition PSI PSI MAV/sliderInjected PSI MAV contaminants(Size(dateTimeroscoperoscope contaminantsInjected_both Succ MAV exposition --------
+RODUCTION Basel --------
+(dateTimeexternalActionCodeexternalActionCode.visitInsn ToastrBuilderFactory exposition Succ exposition contaminants Toastr_both(dateTimeInjected.visitInsn Toastr contaminants PSI—from_both expositionBritain MAV—from SuccRODUCTIONroscope MAVInjected Toastr contaminantsBuilderFactory.visitInsn.visitInsnRODUCTIONroscopeBuilderFactory MAV Succ Toastr Basel SuccBritain.visitInsn Toastr MAV exposition contaminants Basel PSIroscopeRODUCTIONexternalActionCodeRODUCTION/sliderexternalActionCode(dateTime(dateTime/slider Toastr contaminants PSIInjected exposition MAV ToastrBritainroscope expositionRODUCTIONroscopeexternalActionCode Succ—from_both Succ contaminants_both(Size contaminantsroscoperoscopeexternalActionCode MAV BaselInjected.visitInsn Basel PSI BaselexternalActionCode(dateTime—from Basel Toastr Basel_both_both(Size ToastrBritainroscopeBuilderFactoryRODUCTIONBritain ToastrexternalActionCode --------
+ PSI Succ PSI --------
+ --------
+ Succ.visitInsn(Size.visitInsnBuilderFactory(SizeInjectedRODUCTION Basel—fromBritainBuilderFactory.visitInsnexternalActionCode contaminants MAV --------
+.visitInsn exposition PSIroscope exposition_both(dateTimeRODUCTIONroscope_bothRODUCTION/slider Basel MAVexternalActionCodeInjected --------
+ PSI_both.visitInsnRODUCTIONBuilderFactory Basel—from—from(Size—fromroscope Basel.visitInsn SuccInjectedBuilderFactory Basel_bothRODUCTION contaminants contaminants(dateTime exposition contaminants Toastr(SizeexternalActionCoderoscoperoscope MAV—from exposition SuccRODUCTION Basel contaminants Succ ToastrInjected BaselBuilderFactory PSIBuilderFactory.visitInsn contaminants—from contaminants—from ToastrBuilderFactoryexternalActionCodeInjected(Size contaminants—fromInjected_both.visitInsn.visitInsn contaminants --------
+ contaminantsexternalActionCode Toastr/sliderexternalActionCode Succ expositionInjectedInjectedexternalActionCodeRODUCTION --------
+/slider Succ—fromroscope_both MAV ToastrroscopeBritain(Size contaminants PSI exposition(Size Succ Toastr MAV Basel Toastr.visitInsnBritainBuilderFactory MAV MAV PSI PSI --------
+roscopeBritainRODUCTIONBritain_both Toastr expositionRODUCTION PSIBuilderFactoryRODUCTION—fromexternalActionCode(SizeInjected PSI(dateTime Succ Basel Basel PSI(Size(Size PSI --------
+ Toastr Toastr.visitInsn MAV PSI Basel PSIInjected Succ MAVBritain PSI_bothexternalActionCode MAV PSI/sliderBuilderFactory—from Basel_both PSI contaminants MAVexternalActionCode_both contaminantsexternalActionCode PSI MAVRODUCTIONBritain(dateTimeBritain Succ Basel.visitInsn(dateTime(Size contaminants(dateTime—fromBuilderFactoryroscopeBuilderFactoryBuilderFactory Toastr Toastr_both/slider(dateTimeBritainroscopeBuilderFactory—from PSI(dateTime MAV exposition/slider.visitInsn Succ(SizeBuilderFactory(dateTimeBritain/slider.visitInsn contaminants(dateTime—fromroscoperoscope MAV Succ MAVBuilderFactoryBritainexternalActionCode exposition—fromexternalActionCodeBuilderFactory Toastr contaminantsInjectedRODUCTIONInjected—from Succ SuccBuilderFactory contaminants MAV Baselroscope(dateTime—from(SizeexternalActionCode exposition—from—from Toastr MAV Basel MAV expositionRODUCTION contaminantsInjected_both/sliderBuilderFactory.visitInsn --------
+ MAVBritain.visitInsn ToastrroscopeexternalActionCodeRODUCTION(SizeRODUCTIONInjected PSI expositionBritain exposition --------
+ MAVBuilderFactory PSI contaminants Succ(dateTimeexternalActionCode(dateTimeBritain—from MAV_both/slider—from ToastrRODUCTION(dateTimeBuilderFactoryRODUCTION(dateTime --------
+ contaminantsRODUCTION Toastr contaminants(dateTime.visitInsn Basel --------
+ MAVexternalActionCode—from Toastr(Size expositionBuilderFactory PSI --------
+Injected contaminants_both_bothroscope.visitInsn contaminants exposition(Sizeroscope PSI BaselexternalActionCode contaminants ToastrBuilderFactoryBritain—fromRODUCTION/slider SuccInjectedexternalActionCode(dateTime Toastr Toastr MAVBritain Toastr MAVBritain/slider MAVBritain PSI PSI Basel PSIRODUCTIONexternalActionCode(dateTime(dateTime contaminantsRODUCTION --------
+externalActionCode Toastr Basel.visitInsn MAV PSI Succ_bothBritain Basel/slider --------
+BuilderFactory/sliderroscopeRODUCTION.visitInsn_both.visitInsnBritain MAV contaminants—from(SizeRODUCTIONRODUCTION Succ(SizeRODUCTIONInjected --------
+ Succ Basel_both Succ --------
+InjectedInjected ToastrexternalActionCode ToastrInjected_both(SizeexternalActionCode(dateTime MAVBuilderFactory_bothroscope(dateTime(Size.visitInsn Toastr(dateTime Succ MAVRODUCTIONroscope PSIroscope Basel_both.visitInsn.visitInsnexternalActionCode.visitInsnroscope(Size SuccBuilderFactoryexternalActionCodeBritain MAVexternalActionCodeRODUCTION PSI Succ(dateTime BaselBuilderFactory exposition SuccInjected_both/slider BaselInjected Basel/sliderroscope Succ_both/slider --------
+ contaminants.visitInsn PSI exposition --------
+.visitInsnBuilderFactory PSI PSIInjected PSIBritain Toastr Basel exposition Succ contaminantsexternalActionCode PSI(dateTime SuccRODUCTION—from—from.visitInsn_both_bothRODUCTION BaselBritain exposition/slider PSI exposition BaselBritain PSI --------
+BuilderFactory—from MAV_both contaminants SuccInjectedBuilderFactory exposition/slider/slider MAV SuccRODUCTION_both contaminants PSI contaminantsInjectedroscope Basel contaminantsBuilderFactory(Size—from(Size PSIroscope/slider_both MAV(Size PSIroscope Succ contaminants exposition SuccBuilderFactoryBritainInjected/slider—from—from.visitInsn_both --------
+ Succ(dateTime—fromBuilderFactory PSI(dateTime Basel(dateTime PSIInjectedRODUCTION Succ PSI --------
+ Succ(Size/slider Toastr.visitInsn PSIexternalActionCode contaminants Basel PSIroscope exposition(Size(dateTime exposition --------
+ Basel/slider.visitInsn.visitInsnBuilderFactory/sliderBuilderFactoryroscope --------
+ contaminants/slider PSIexternalActionCodeBuilderFactory.visitInsnroscope exposition_bothroscopeBuilderFactoryRODUCTION/slider_both SuccroscopeBuilderFactory PSIInjected expositionroscope --------
+BuilderFactoryInjected --------
+InjectedexternalActionCodeBuilderFactory(Size PSI MAV PSI contaminantsInjected/slider PSI exposition exposition/slider --------
+ contaminants contaminants(dateTime—from PSI --------
+ SuccBuilderFactoryInjectedRODUCTIONBuilderFactory.visitInsn Succ Succ_both(dateTimeInjected --------
+Injected BaselexternalActionCode Toastr contaminantsroscopeBuilderFactoryInjected Basel/slider/slider Toastr PSI --------
+ PSI.visitInsnBuilderFactoryroscope Toastr ToastrInjected(Size(SizeexternalActionCode(Size.visitInsn.visitInsn --------
+ ToastrInjectedexternalActionCode PSI --------
+Britain(Size MAVRODUCTION Succ—from(Size Toastr Toastr PSI/sliderBritain Toastr --------
+BritainBuilderFactory—from contaminantsInjectedInjected contaminants/slider exposition(dateTime.visitInsnInjected(dateTime PSI(dateTime Toastrroscope contaminants --------
+ --------
+BritainBritain MAVexternalActionCode Succ/slider(Size MAVRODUCTION Toastr_both/slider MAVBritainInjected.visitInsn MAV MAV MAV MAV contaminantsRODUCTIONBuilderFactory PSI(SizeRODUCTION—from_both.visitInsn PSI(SizeexternalActionCodeRODUCTION(Size/sliderexternalActionCode --------
+/slider Basel contaminants_bothBuilderFactoryroscope(dateTime --------
+RODUCTION—fromexternalActionCodeBuilderFactory_both_both—from contaminants ToastrBritain contaminants exposition/sliderRODUCTION --------
+.visitInsn Toastr PSI --------
+ PSIroscope Succ/slider Toastr contaminants PSI exposition.visitInsnInjected(dateTime exposition MAV expositionexternalActionCodeBuilderFactory contaminants(dateTime(dateTimeexternalActionCodeBritain_both --------
+(Size Succ --------
+ MAVRODUCTIONexternalActionCodeexternalActionCode Succ—from MAVroscopeBuilderFactory(SizeInjectedBuilderFactory.visitInsn MAV(dateTime_bothexternalActionCode SuccBuilderFactoryInjected SuccBuilderFactoryBuilderFactory.visitInsnInjected(SizeBuilderFactoryroscope exposition/slider contaminantsBuilderFactory contaminants SuccexternalActionCodeBuilderFactory exposition --------
+(dateTimeexternalActionCode Basel PSI(dateTime(dateTime(Size(dateTime Succ Basel(Size --------
+—from—fromBritainRODUCTIONBuilderFactory Toastrroscope—from Succ.visitInsn SuccexternalActionCode—from(dateTimeRODUCTION_both ToastrRODUCTIONBuilderFactory --------
+(Size BaselRODUCTION Succ.visitInsn(dateTime(Size Succ MAVRODUCTIONRODUCTION Toastr --------
+BuilderFactoryInjectedroscope --------
+.visitInsn PSIroscopeexternalActionCodeRODUCTION(dateTime Toastr PSI(Sizeroscope expositionexternalActionCodeBritain PSI.visitInsn/sliderroscope_both_both(dateTimeBritain/slider—from PSI/sliderroscope.visitInsn BaselBritain_both MAVRODUCTIONBritain MAV(Size—from --------
+ exposition Succ MAVroscope contaminants MAVexternalActionCodeexternalActionCode Toastr.visitInsn(Size ToastrexternalActionCode.visitInsnInjected(dateTime/sliderBritain—from—from exposition Basel Toastr.visitInsn MAV/slider exposition.visitInsn—from Basel_bothBritainBritain_bothroscope/slider Toastr --------
+RODUCTION PSI contaminants expositionRODUCTION --------
+ PSI_bothexternalActionCode exposition BaselInjectedroscope Basel --------
+ PSIBuilderFactory --------
+externalActionCode contaminants_both(Size(dateTimeRODUCTION MAVroscope(dateTime PSIBritain.visitInsn PSIroscope Succroscope Basel—from Basel --------
+ ToastrBritainInjected MAVInjected PSIexternalActionCode—from MAV(Size—fromRODUCTION --------
+ expositionexternalActionCode(SizeInjectedexternalActionCode MAVBritainInjectedRODUCTION --------
+(dateTime Toastr Succ BaselBritain Basel—fromRODUCTION—from exposition/slider Basel SuccRODUCTION_both BaselexternalActionCode MAV_both contaminantsInjected Toastr.visitInsn Toastr—fromBuilderFactory exposition(Sizeroscope PSI MAVroscope Toastr(dateTimeexternalActionCode BaselexternalActionCodeBuilderFactory Succ(Size—from(SizeInjected.visitInsn.visitInsn --------
+(Size_both(Size Toastr exposition—from PSI/sliderBuilderFactory exposition ToastrBuilderFactory contaminants ToastrBritain_both MAV_both_both—from MAVRODUCTIONroscope/sliderRODUCTION(Size --------
+ Basel --------
+—from Toastr contaminantsexternalActionCodeInjectedexternalActionCode contaminants(Size MAV(dateTime PSI(dateTimeroscope Basel MAVInjected—from Succ.visitInsn exposition—fromBuilderFactory --------
+(Sizeroscope—from_both(Size SuccRODUCTION/sliderroscope—from Succ Basel MAV—from Toastr MAV contaminants(dateTimeroscope Succ/slider_both MAV PSI.visitInsn/slider Succ exposition PSI Succ_both MAVBritainInjected.visitInsnBritainBritainBuilderFactory Succ.visitInsnInjected—fromBritain.visitInsnBuilderFactoryBritainBritain Toastr expositionRODUCTION—from.visitInsn --------
+ contaminants PSI PSI Succ contaminantsBritain --------
+RODUCTIONBritainexternalActionCode(dateTime Toastr_bothBuilderFactory(dateTime MAV contaminants exposition(Size --------
+(dateTime PSI—from PSI Succ(SizeInjectedInjectedBuilderFactory.visitInsnBritain PSI Succ ToastrBuilderFactory Basel.visitInsnexternalActionCoderoscope—fromBritainexternalActionCodeBritain PSIexternalActionCode—from expositionRODUCTION contaminants expositionBuilderFactory contaminants --------
+/slider(Size(Size exposition—from(SizeInjectedInjected(dateTime_both Toastr PSI(dateTime MAVroscope_both contaminants.visitInsn Succ.visitInsn(Size/slider(dateTime.visitInsn.visitInsn/slider PSI Basel --------
+externalActionCoderoscopeInjected_both_both.visitInsnexternalActionCode(dateTimeBuilderFactory exposition(dateTime SuccRODUCTIONroscope(dateTimeexternalActionCode Succ/slider(dateTime --------
+.visitInsnBuilderFactory BaselRODUCTION MAV contaminants expositionroscopeBuilderFactory contaminants.visitInsn.visitInsnroscope contaminants(dateTime—fromRODUCTION Toastr Succ/slider(dateTime/slider(dateTime MAVInjected Succ BaselexternalActionCode contaminantsroscope(Size contaminants BaselexternalActionCode/slider_both Succ exposition Succ Toastr Succroscope Basel(dateTimeBuilderFactory PSIInjected expositionroscopeRODUCTION contaminantsRODUCTION(SizeRODUCTIONBuilderFactory Toastr expositionroscope BaselInjected --------
+ exposition_bothexternalActionCode PSI PSI—from(Size.visitInsn --------
+.visitInsnBritain MAV Succ(SizeexternalActionCodeexternalActionCodeRODUCTION contaminantsInjected(Size MAV/slider_bothRODUCTION_bothroscope Succ(Size Succ(Size—from_both MAV contaminantsInjected exposition MAVInjected_both—from expositionInjected exposition SuccRODUCTION Toastr contaminants MAV PSIexternalActionCode --------
+ MAV exposition --------
+(dateTimeBritain --------
+ SuccBuilderFactoryroscope --------
+ MAVexternalActionCode(dateTime exposition BaselBuilderFactoryRODUCTIONBuilderFactory MAV contaminantsexternalActionCode(Size(Size Basel exposition—from—fromRODUCTIONBuilderFactory --------
+_both SuccroscopeexternalActionCode/slider PSI(Size(Size Succ/sliderInjectedInjectedroscope(dateTime—fromBritain(Sizeroscope(dateTime contaminants(Size Toastr(dateTime contaminants --------
+(dateTime --------
+ PSI(Size Basel contaminants.visitInsn Succ --------
+ MAV PSIBritain MAV ToastrBuilderFactory—from—from.visitInsnRODUCTION(Size Toastr Toastr/slider(dateTimeBuilderFactoryexternalActionCodeBritain Toastr Baselroscope(dateTimeroscope—from Toastr Succ --------
+/slider Toastr.visitInsn exposition MAV --------
+_both --------
+ contaminants exposition contaminants Succ(Size BaselInjected PSI_bothexternalActionCode exposition(Size --------
+ PSI/slider Basel Toastr --------
+(Size --------
+ Succ PSI --------
+(SizeBritainInjected.visitInsnBritain—fromroscope BaselInjected Succ Toastr PSI --------
+—from(Size contaminants(dateTimeInjected.visitInsn Succ_bothroscoperoscopeInjectedInjected Succ(dateTime_both Basel exposition exposition MAV(dateTime contaminants.visitInsn ToastrBuilderFactory.visitInsn --------
+(Size contaminants(dateTime(dateTime Succ PSI MAVBritain MAVBritain MAV_bothexternalActionCode Baselroscope --------
+ Toastr --------
+externalActionCode_bothInjected exposition SuccBritainInjected/slider(dateTime exposition contaminantsInjected(dateTime contaminantsroscope(Size Toastr exposition Basel contaminants(Size --------
+ exposition_both—fromRODUCTION expositionBuilderFactoryRODUCTION expositionroscopeBritain Toastr(dateTime PSI Basel(Size contaminants --------
+_both/sliderInjectedexternalActionCode PSI contaminants_both.visitInsn(SizeRODUCTIONBritain contaminants --------
+roscopeexternalActionCode PSI --------
+—from MAV --------
+ ToastrBritain_both Basel—from MAV Succ PSIexternalActionCode contaminantsBritainBuilderFactory(Size Succ MAVInjectedRODUCTION_both.visitInsn MAV exposition Succ—from MAV PSI(SizeexternalActionCode Succroscope.visitInsn Succ(dateTime MAV exposition(dateTimeRODUCTION Basel MAV contaminantsBuilderFactory contaminants Succ MAV(SizeInjected MAV(dateTime SuccRODUCTION Toastr MAV.visitInsn --------
+.visitInsnBuilderFactory MAV MAV_both BaselBritainroscopeexternalActionCode/slider/sliderInjected Toastr contaminants/slider_both exposition contaminantsroscope_both MAVroscopeexternalActionCode --------
+.visitInsn MAV Basel/slider(dateTime Succ expositionroscopeBritain exposition contaminantsRODUCTIONroscope MAVBuilderFactory PSI --------
+.visitInsn.visitInsn.visitInsn ToastrBuilderFactory contaminantsRODUCTIONBuilderFactory(dateTime MAV exposition exposition --------
+RODUCTION exposition --------
+roscope Succ contaminants—fromexternalActionCode MAV/sliderBuilderFactory contaminantsInjected exposition MAV/slider Basel Succ exposition(Size—from BaselBritain contaminantsBritain --------
+/slider Basel PSI(Size PSIBuilderFactoryexternalActionCode MAV contaminantsBritain --------
+roscopeInjected Basel(dateTime Basel --------
+ --------
+roscopeRODUCTIONBuilderFactory SuccexternalActionCode(Size exposition Toastr expositionInjected PSI Basel(Size PSI BaselRODUCTION exposition --------
+(Size—from/sliderBuilderFactory_both Succ exposition MAV contaminants—fromroscopeBritain MAV/slider(Size.visitInsn Basel(Size—from/sliderBritain—from contaminants Basel_both
+[2025-08-11 18:47:07,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:47:07] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:47:21,347 ] 30 root - INFO - /chat route called
+[2025-08-11 18:47:21,347 ] 33 root - INFO - Request JSON: {'input': "PRICE FOR Symbol Premium\nMen's Cotton Non-Iron Formal Shirt (Regular Fit | Solid)"}
+[2025-08-11 18:47:21,348 ] 35 root - INFO - User Input: PRICE FOR Symbol Premium
+Men's Cotton Non-Iron Formal Shirt (Regular Fit | Solid)
+[2025-08-11 18:47:21,348 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:47:23,454 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[2025-08-11 18:47:23,455 ] 1068 groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+[2025-08-11 18:47:39,174 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 18:47:39,178 ] 40 root - INFO - Chatbot Response: I apologize, but I don't see that specific item in our current inventory. The context mentions the following men's shirts:
+
+
+                            Brand Name:    Amazon Brand - Symbol
+                            Product Name:   Men's Solid Cotton Formal Shirt | Plain | Full Sleeve-Regular Fit (Available in Plus Size and Combo Packs)
+                            Price:          \u20b9549
+                            MRP:            \u20b91,599
+                            Offer:          (66% off)
+
+
+                            Brand Name:    Amazon Brand - Symbol
+                            Product Name:   Men's Solid Cotton Formal Shirt | Plain | Full Sleeve - Regular Fit (Available in Plus Size and Combo Packs)
+                            Price:          \u20b9599
+                            MRP:            \u20b91,799
+                            Offer:          (67% off)
+
+
+                            Brand Name:    Amazon Brand - Symbol
+                            Product Name:   Men's Solid Cotton Rich Formal Shirt | Plain | Full Sleeve-Regular Fit (Available in Plus Size)
+                            Price:          \u20b9309
+                            MRP:            \u20b91,699
+                            Offer:          (82% off)
+
+
+                            Brand Name:    Amazon Brand - Symbol
+                            Product Name:   Men's Solid Cotton Rich Formal Shirt | Plain | Full Sleeve-Regular Fit (Available in Plus Size and Combo Pack of 2)
+                            Price:          \u20b9599
+                            MRP:            \u20b91,799
+                            Offer:          (67% off)
+
+
+                            Brand Name:    Amazon Brand - Symbol
+                            Product Name:   Men's Solid Cotton Formal Shirt | Plain | Full Sleeve - Regular Fit (Available in Plus Size and Combo Packs)
+                            Price:          \u20b9599
+                            MRP:            \u20b91,599
+                            Offer:          (63% off)
+
+But I don't have information about the Symbol Premium Men's Cotton Non-Iron Formal Shirt (Regular Fit | Solid). Would you like to know more about these shirts or place an order?
+[2025-08-11 18:47:39,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:47:39] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 18:48:47,653 ] 30 root - INFO - /chat route called
+[2025-08-11 18:48:47,654 ] 33 root - INFO - Request JSON: {'input': "PERCENTAGE OF Men's Slim Fit Checks Pattern Cotton Polyester Blend Semi Cutaway Collar Full Sleeve Formal Shirt"}
+[2025-08-11 18:48:47,654 ] 35 root - INFO - User Input: PERCENTAGE OF Men's Slim Fit Checks Pattern Cotton Polyester Blend Semi Cutaway Collar Full Sleeve Formal Shirt
+[2025-08-11 18:48:47,654 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 18:48:54,093 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+[2025-08-11 18:48:54,644 ] 44 root - ERROR - Chatbot error: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01k2ajdq03ffrrndsr33c50cnp` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12102, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+Traceback (most recent call last):
+  File "c:\Users\Qadeer\OneDrive\Desktop\1\app.py", line 39, in chat
+    response = chatbot.invoke({"input": question}, config=config)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5441, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5441, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3049, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5441, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4781, in invoke
+    return self._call_with_config(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        self._invoke,
+        ^^^^^^^^^^^^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 1938, in _call_with_config
+    context.run(
+    ~~~~~~~~~~~^
+        call_func_with_variable_args,  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 4650, in _invoke
+    output = output.invoke(
+        input_,
+    ...<4 lines>...
+        ),
+    )
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5441, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3049, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 513, in invoke
+    return self._call_with_config(self._invoke, input, config, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 1938, in _call_with_config
+    context.run(
+    ~~~~~~~~~~~^
+        call_func_with_variable_args,  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\config.py", line 429, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\passthrough.py", line 499, in _invoke
+    **self.mapper.invoke(
+      ~~~~~~~~~~~~~~~~~~^
+        value,
+        ^^^^^^
+        patch_config(config, callbacks=run_manager.get_child()),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **kwargs,
+        ^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3777, in invoke
+    output = {key: future.result() for key, future in zip(steps, futures)}
+                   ~~~~~~~~~~~~~^^
+  File "C:\Users\Qadeer\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Qadeer\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Qadeer\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3761, in _invoke_step
+    return context.run(
+           ~~~~~~~~~~~^
+        step.invoke,
+        ^^^^^^^^^^^^
+        input_,
+        ^^^^^^^
+        child_config,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 5441, in invoke
+    return self.bound.invoke(
+           ~~~~~~~~~~~~~~~~~^
+        input,
+        ^^^^^^
+        self._merge_configs(config),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        **{**self.kwargs, **kwargs},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\runnables\base.py", line 3049, in invoke
+    input_ = context.run(step.invoke, input_, config)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 383, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 825, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\langchain_groq\chat_models.py", line 527, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\groq\resources\chat\completions.py", line 378, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/openai/v1/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<41 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\groq\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Qadeer\OneDrive\Desktop\1\.venv\Lib\site-packages\groq\_base_client.py", line 1044, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.APIStatusError: Error code: 413 - {'error': {'message': 'Request too large for model `llama-3.3-70b-versatile` in organization `org_01k2ajdq03ffrrndsr33c50cnp` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Requested 12102, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[2025-08-11 18:48:54,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:48:54] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+[2025-08-11 18:53:09,571 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "GET / HTTP/1.1" 200 -
+[2025-08-11 18:53:09,618 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,624 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,627 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,640 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,643 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,645 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,657 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,660 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,664 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,672 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,678 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,687 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,692 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,697 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,710 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,714 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,734 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,744 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,768 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,807 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,823 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 18:53:09,860 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 18:53:09] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -

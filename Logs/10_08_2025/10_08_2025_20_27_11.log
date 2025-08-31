@@ -1,0 +1,19 @@
+[2025-08-10 20:27:11,712 ] 133 root - INFO - Starting vectorstore pipeline
+[2025-08-10 20:27:11,712 ] 50 root - INFO - Loading data from artifacts/data_cleaned.csv
+[2025-08-10 20:27:11,741 ] 57 root - INFO - Sample data: [Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 0}, page_content=": 0\nBrand Name: C J Enterprise\nProduct Name: Women's Kanjivaram Art Silk Saree Soft Banarasi Style Sari With Blouse Piece For Wedding (Pari122-51)\nRating: 4.0 out of 5 stars\nRating Count: 1,177\nSelling Price: \u20b9499\nMRP: \u20b9999\nOffer: (50% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 1}, page_content=": 1\nBrand Name: SGF11\nProduct Name: Women's Kanjivaram Soft Silk Saree With Blouse Piece\nRating: 3.8 out of 5 stars\nRating Count: 1,806\nSelling Price: \u20b9597\nMRP: \u20b95,999\nOffer: (90% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 2}, page_content=": 2\nBrand Name: SIRIL\nProduct Name: Women's Lace & Printed Chiffon Saree with Blouse\nRating: 3.8 out of 5 stars\nRating Count: 1,512\nSelling Price: \u20b9498\nMRP: \u20b93,519\nOffer: (86% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 3}, page_content=": 3\nBrand Name: SGF11\nProduct Name: Women's Kanjivaram Pure Soft Silk Saree For Women Pure Golden Zari With Blouse Piece\nRating: 4.1 out of 5 stars\nRating Count: 162\nSelling Price: \u20b91,298\nMRP: \u20b98,999\nOffer: (86% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 4}, page_content=": 4\nBrand Name: Sidhidata\nProduct Name: Women's Soft Zimmy Choo Fandy Silk Saree With Hand Work Lace Boarder & Comes With Unstitched Blouse Piece (Chhaava)\nRating: 4.5 out of 5 stars\nRating Count: 316\nSelling Price: \u20b9998\nMRP: \u20b92,999\nOffer: (67% off)")]
+[2025-08-10 20:27:11,741 ] 58 root - INFO - Successfully loaded 937 documents.
+[2025-08-10 20:27:11,741 ] 69 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-10 20:27:11,742 ] 75 root - INFO - Embeddings initialized successfully.
+[2025-08-10 20:27:11,742 ] 89 root - INFO - Connecting to Pinecone and creating index: ecommerce-chatbot-project
+[2025-08-10 20:27:25,951 ] 113 root - INFO - Index status before uploading: {'dimension': 4096,
+ 'index_fullness': 0.0,
+ 'metric': 'cosine',
+ 'namespaces': {},
+ 'total_vector_count': 0,
+ 'vector_type': 'dense'}
+[2025-08-10 20:27:27,478 ] 126 root - ERROR - Error creating vector store: [401] Unauthorized
+Authentication failed
+Please check or regenerate your API key.
+[2025-08-10 20:27:27,478 ] 142 root - ERROR - Error in pipeline execution: Error occured in python script [C:\Users\Qadeer\OneDrive\Desktop\Ecommerce-Chatbot__Qadeer\src\components\vectorstore_builder.py] line number [115] error message [[401] Unauthorized
+Authentication failed
+Please check or regenerate your API key.]

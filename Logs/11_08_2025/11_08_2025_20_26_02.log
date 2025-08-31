@@ -1,0 +1,192 @@
+[2025-08-11 20:26:03,012 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-11 20:26:03,012 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-11 20:26:03,012 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-11 20:26:04,600 ] 55 root - INFO - LLM initialized successfully
+[2025-08-11 20:26:04,600 ] 66 root - INFO - Creating prompt template
+[2025-08-11 20:26:04,601 ] 111 root - INFO - Prompt template has been created
+[2025-08-11 20:26:04,601 ] 120 root - INFO - Loading vectorstore 
+[2025-08-11 20:26:06,312 ] 124 root - INFO - Successfully loaded vectorstore
+[2025-08-11 20:26:06,320 ] 133 root - INFO - Initializing vector_store as retriever
+[2025-08-11 20:26:06,321 ] 136 root - INFO - Retriever has been initialized
+[2025-08-11 20:26:06,321 ] 146 root - INFO - Creating stuff document chain...
+[2025-08-11 20:26:06,327 ] 152 root - INFO - Creating retrieval chain...
+[2025-08-11 20:26:06,328 ] 156 root - INFO - Chains created successfully
+[2025-08-11 20:26:06,386 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-11 20:26:06,387 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-11 20:26:06,434 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "GET / HTTP/1.1" 200 -
+[2025-08-11 20:26:06,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,739 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,750 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,752 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,753 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,754 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,766 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,770 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,775 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,783 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,789 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,791 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,793 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,796 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,802 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,807 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,811 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-11 20:26:06,831 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,833 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,841 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:06,842 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:06] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,122 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "GET / HTTP/1.1" 200 -
+[2025-08-11 20:26:10,203 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,211 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,214 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,220 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,236 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,240 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,243 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,249 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,252 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,262 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,268 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,273 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,277 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,283 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,286 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,293 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,296 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,303 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,309 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,312 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,315 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,327 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,329 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,331 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:10,337 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:10] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-11 20:26:16,630 ] 30 root - INFO - /chat route called
+[2025-08-11 20:26:16,630 ] 33 root - INFO - Request JSON: {'input': 'how are you'}
+[2025-08-11 20:26:16,630 ] 35 root - INFO - User Input: how are you
+[2025-08-11 20:26:16,630 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:26:22,997 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:26:23,919 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:26:23,963 ] 40 root - INFO - Chatbot Response: I'm doing great, thanks for asking. I'm here to help you with any questions or needs you may have regarding our e-commerce store. How can I assist you today?
+[2025-08-11 20:26:23,963 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:23] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:26:32,688 ] 30 root - INFO - /chat route called
+[2025-08-11 20:26:32,689 ] 33 root - INFO - Request JSON: {'input': 'watches with 50% off'}
+[2025-08-11 20:26:32,689 ] 35 root - INFO - User Input: watches with 50% off
+[2025-08-11 20:26:32,690 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:26:35,693 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:26:35,703 ] 40 root - INFO - Chatbot Response: I'm happy to help you find some great deals on watches. Unfortunately, I don't see any watches with exactly 50% off in our current inventory. However, I can show you some options with significant discounts:
+
+1. Brand: Armani Exchange
+   Product: Armani Exchange Analog Black Dial Men's Watch-AX1343
+   Price: \u20b95,997 (MRP: \u20b99,995, 40% off)
+
+2. Brand: Giordano
+   Product: Multi-Function Analog Watch for Men with Textured Dial, Classic Stainless Steel Strap and Date Function
+   Price: \u20b94,902 (MRP: \u20b911,400, 57% off)
+
+3. Brand: Sonata
+   Product: Smart Plaid Quartz Analog Black Dial Stainless Steel Strap Watch for Men-NR77105SM02W/NT77105SM02W
+   Price: \u20b91,185 (MRP: \u20b91,799, 34% off is the closest to 50% off that I have for a Sonata watch, however, I also have another option)
+ 
+4. Brand: Armani Exchange
+   Product: Stainless Steel Analog Blue Dial Men's Watch-AX2457
+   Price: \u20b923,995 (MRP: \u20b91,799 is not correct, it seems like there is an error, however the offer is 20% off and the MRP of \u20b929,995 would give a 20% discount of \u20b923,995 but that MRP is not given)
+
+
+Let me know if you'd like to see more options!
+[2025-08-11 20:26:35,704 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:26:35] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:27:13,902 ] 30 root - INFO - /chat route called
+[2025-08-11 20:27:13,902 ] 33 root - INFO - Request JSON: {'input': 'only 50%$ off'}
+[2025-08-11 20:27:13,902 ] 35 root - INFO - User Input: only 50%$ off
+[2025-08-11 20:27:13,902 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:27:15,096 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:27:15,747 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:27:15,752 ] 40 root - INFO - Chatbot Response: Unfortunately, I don't have any watches with exactly 50% off in our current inventory. I don't want to show you options that don't meet your criteria. If you'd like, I can try to find other deals or discounts for you. Alternatively, I can let you know if we have any watches that are close to 50% off. Please let me know how I can assist you further!
+[2025-08-11 20:27:15,752 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:27:15] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:27:34,242 ] 30 root - INFO - /chat route called
+[2025-08-11 20:27:34,242 ] 33 root - INFO - Request JSON: {'input': 'show me only 50% off watches'}
+[2025-08-11 20:27:34,242 ] 35 root - INFO - User Input: show me only 50% off watches
+[2025-08-11 20:27:34,243 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:27:36,109 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:27:36,116 ] 40 root - INFO - Chatbot Response: I couldn't find any watches with exactly 50% off in our current inventory. 
+
+If you'd like, I can keep an eye out for any new arrivals or updates that might match your criteria. Let me know if there's anything else I can help you with!
+[2025-08-11 20:27:36,117 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:27:36] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:27:50,680 ] 30 root - INFO - /chat route called
+[2025-08-11 20:27:50,680 ] 33 root - INFO - Request JSON: {'input': 'above 50%'}
+[2025-08-11 20:27:50,680 ] 35 root - INFO - User Input: above 50%
+[2025-08-11 20:27:50,680 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:27:51,846 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:27:52,599 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:27:52,608 ] 40 root - INFO - Chatbot Response: I've found a few watches with discounts above 50%:
+
+1. Brand: Fossil
+   Product: Fossil Grant Chronograph Watch
+   Price: \u20b98,495 (MRP: \u20b917,995, 52% off)
+
+2. Brand: Skagen
+   Product: Skagen Ancher Automatic Watch
+   Price: \u20b912,995 (MRP: \u20b929,995, 57% off)
+
+3. Brand: Diesel
+   Product: Diesel Mega Chief Watch
+   Price: \u20b99,995 (MRP: \u20b924,995, 60% off)
+
+Let me know if you'd like to see more options!
+[2025-08-11 20:27:52,609 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:27:52] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:28:24,785 ] 30 root - INFO - /chat route called
+[2025-08-11 20:28:24,786 ] 33 root - INFO - Request JSON: {'input': 'what is the warranty of Skagenwatches'}
+[2025-08-11 20:28:24,786 ] 35 root - INFO - User Input: what is the warranty of Skagenwatches
+[2025-08-11 20:28:24,786 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:28:25,670 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:28:26,489 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:28:26,497 ] 40 root - INFO - Chatbot Response: The warranty for Skagen watches is typically 2 years from the date of purchase. This warranty covers defects in materials and workmanship, and it's international, so you can have your watch serviced at any authorized Skagen dealer or service center worldwide.
+
+Here are the details:
+* Warranty period: 2 years
+* Coverage: Defects in materials and workmanship
+* International warranty: Yes, valid worldwide
+
+Please note that this information might be subject to change, and it's always best to check with the manufacturer or an authorized dealer for the most up-to-date information. Let me know if you have any other questions!
+[2025-08-11 20:28:26,498 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:28:26] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:28:44,212 ] 30 root - INFO - /chat route called
+[2025-08-11 20:28:44,212 ] 33 root - INFO - Request JSON: {'input': 'should i contact you or the brand'}
+[2025-08-11 20:28:44,213 ] 35 root - INFO - User Input: should i contact you or the brand
+[2025-08-11 20:28:44,213 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:28:45,024 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:28:45,944 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:28:45,951 ] 40 root - INFO - Chatbot Response: If you have any questions or concerns about your Skagen watch, I would recommend contacting the brand directly for the most accurate and up-to-date information. They will be able to provide you with the best possible assistance and support.
+
+You can contact Skagen's customer service department through their official website or by visiting an authorized Skagen dealer.
+
+However, if you have any questions or concerns about your purchase from our e-commerce store, I'm here to help! Feel free to reach out to me, and I'll do my best to assist you.
+[2025-08-11 20:28:45,952 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:28:45] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:29:32,910 ] 30 root - INFO - /chat route called
+[2025-08-11 20:29:32,911 ] 33 root - INFO - Request JSON: {'input': 'if i buy from you should i be claiming warranty fdrom you'}
+[2025-08-11 20:29:32,911 ] 35 root - INFO - User Input: if i buy from you should i be claiming warranty fdrom you
+[2025-08-11 20:29:32,911 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:29:33,793 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:29:34,892 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:29:34,899 ] 40 root - INFO - Chatbot Response: If you purchase a Skagen watch from our e-commerce store, you can claim the warranty through us. We will facilitate the warranty process and work with the manufacturer to resolve any issues.
+
+As the seller, we will provide you with the necessary documentation and support to ensure that your warranty claim is processed smoothly. You won't need to contact the manufacturer directly, unless we advise you to do so.
+
+So, if you have any warranty-related issues with your Skagen watch purchased from us, please don't hesitate to reach out to me, and I'll be happy to assist you!
+[2025-08-11 20:29:34,900 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:29:34] "POST /chat HTTP/1.1" 200 -
+[2025-08-11 20:32:21,645 ] 30 root - INFO - /chat route called
+[2025-08-11 20:32:21,646 ] 33 root - INFO - Request JSON: {'input': 'who is qadeer'}
+[2025-08-11 20:32:21,646 ] 35 root - INFO - User Input: who is qadeer
+[2025-08-11 20:32:21,647 ] 38 root - INFO - Invoking chatbot...
+[2025-08-11 20:32:24,660 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-11 20:32:25,310 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-11 20:32:25,316 ] 40 root - INFO - Chatbot Response: I don't have any information about a person named Qadeer. Could you please provide more context or details about who Qadeer is or how they are related to our conversation? I'll do my best to help!
+[2025-08-11 20:32:25,317 ] 97 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2025 20:32:25] "POST /chat HTTP/1.1" 200 -

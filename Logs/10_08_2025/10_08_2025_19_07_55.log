@@ -1,0 +1,7 @@
+[2025-08-10 19:07:55,961 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-10 19:07:55,964 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-10 19:07:55,964 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-10 19:07:58,949 ] 55 root - INFO - LLM initialized successfully
+[2025-08-10 19:07:58,949 ] 66 root - INFO - Creating prompt template
+[2025-08-10 19:07:58,950 ] 153 root - INFO - Prompt template has been created
+[2025-08-10 19:07:58,950 ] 164 root - INFO - Loading vectorstore 

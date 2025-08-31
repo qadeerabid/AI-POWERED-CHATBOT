@@ -1,0 +1,5 @@
+[2025-08-13 00:11:23,895 ] 140 root - INFO - Starting vectorstore pipeline
+[2025-08-13 00:11:23,895 ] 56 root - INFO - Loading data from artifacts/data_cleaned.csv
+[2025-08-13 00:11:23,912 ] 62 root - INFO - Sample data from artifacts/data_cleaned.csv: [Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 0}, page_content=": 0\nBrand Name: C J Enterprise\nProduct Name: Women's Kanjivaram Art Silk Saree Soft Banarasi Style Sari With Blouse Piece For Wedding (Pari122-51)\nRating: 4.0 out of 5 stars\nRating Count: 1,177\nSelling Price: £4.74\nMRP: £9.49\nOffer: (50% off)"), Document(metadata={'source': 'artifacts/data_cleaned.csv', 'row': 1}, page_content=": 1\nBrand Name: SGF11\nProduct Name: Women's Kanjivaram Soft Silk Saree With Blouse Piece\nRating: 3.8 out of 5 stars\nRating Count: 1,806\nSelling Price: £5.67\nMRP: £56.99\nOffer: (90% off)")]
+[2025-08-13 00:11:23,912 ] 63 root - INFO - Loaded 937 documents from artifacts/data_cleaned.csv.
+[2025-08-13 00:11:23,912 ] 56 root - INFO - Loading data from artifacts/amazon_qa_cleaned.csv

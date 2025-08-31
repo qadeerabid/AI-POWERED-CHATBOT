@@ -1,0 +1,491 @@
+[2025-08-30 22:35:05,509 ] 33 root - INFO - Initializing NVIDIA Embeddings.
+[2025-08-30 22:35:05,510 ] 38 root - INFO - Embeddings initialized successfully.
+[2025-08-30 22:35:05,510 ] 49 root - INFO - Initializing Llama2 model with Groq
+[2025-08-30 22:35:07,371 ] 55 root - INFO - LLM initialized successfully
+[2025-08-30 22:35:07,371 ] 66 root - INFO - Creating prompt template
+[2025-08-30 22:35:07,371 ] 113 root - INFO - Prompt template has been created
+[2025-08-30 22:35:07,371 ] 122 root - INFO - Loading vectorstore 
+[2025-08-30 22:35:09,510 ] 126 root - INFO - Successfully loaded vectorstore
+[2025-08-30 22:35:09,513 ] 135 root - INFO - Initializing vector_store as retriever
+[2025-08-30 22:35:09,514 ] 138 root - INFO - Retriever has been initialized
+[2025-08-30 22:35:09,514 ] 148 root - INFO - Creating stuff document chain...
+[2025-08-30 22:35:09,520 ] 154 root - INFO - Creating retrieval chain...
+[2025-08-30 22:35:09,521 ] 158 root - INFO - Chains created successfully
+[2025-08-30 22:35:09,551 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-08-30 22:35:09,552 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-30 22:35:09,723 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "GET / HTTP/1.1" 200 -
+[2025-08-30 22:35:09,863 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,864 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,873 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,879 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,886 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,893 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:09,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:09] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,017 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,022 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,023 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,027 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,032 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,034 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,038 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,043 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,050 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,054 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,056 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,065 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,067 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,069 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,076 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,082 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,083 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,090 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:10,094 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:10] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:35:19,974 ] 30 root - INFO - /chat route called
+[2025-08-30 22:35:19,975 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-30 22:35:19,975 ] 35 root - INFO - User Input: hi
+[2025-08-30 22:35:19,975 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:35:24,944 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:35:25,497 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:35:25,535 ] 40 root - INFO - Chatbot Response: Hello! Welcome to our e-commerce store. I'm here to help you find the perfect product. What are you looking for today?
+[2025-08-30 22:35:25,536 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:25] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:35:41,966 ] 30 root - INFO - /chat route called
+[2025-08-30 22:35:41,967 ] 33 root - INFO - Request JSON: {'input': 'can you please list all of the sarees for women'}
+[2025-08-30 22:35:41,967 ] 35 root - INFO - User Input: can you please list all of the sarees for women
+[2025-08-30 22:35:41,967 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:35:43,314 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:35:44,036 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:35:44,047 ] 40 root - INFO - Chatbot Response: I don't have any information about our current inventory of sarees. I'd be happy to help you if I had more details, but unfortunately, I don't have any information to share at the moment.
+
+If you could provide me with more context or details about the types of sarees you're looking for, I'd be more than happy to try and assist you. Let me know if there's anything else I can help you with!
+[2025-08-30 22:35:44,048 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:35:44] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:36:09,366 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET / HTTP/1.1" 200 -
+[2025-08-30 22:36:09,433 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-30 22:36:09,559 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-01.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,639 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-02.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,645 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-30 22:36:09,664 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-04.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,670 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-03.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,671 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-05.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/shirt-06.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,691 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-01.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-02.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,726 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-03.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,735 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-04.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,749 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-05.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,752 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/saree-06.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,786 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-01.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,818 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-02.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,824 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/right-01.jpg HTTP/1.1" 200 -
+[2025-08-30 22:36:09,835 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/left.jpg HTTP/1.1" 200 -
+[2025-08-30 22:36:09,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,868 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/right-02.jpg HTTP/1.1" 200 -
+[2025-08-30 22:36:09,915 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/right-03.jpg HTTP/1.1" 200 -
+[2025-08-30 22:36:09,937 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/chatbot-icon-2-.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,965 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-03.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,975 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-05.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,978 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-04.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/watch-06.png HTTP/1.1" 200 -
+[2025-08-30 22:36:09,989 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:09] "GET /static/images/chatbot-icon-1.png HTTP/1.1" 200 -
+[2025-08-30 22:36:10,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-30 22:36:12,111 ] 30 root - INFO - /chat route called
+[2025-08-30 22:36:12,111 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-30 22:36:12,111 ] 35 root - INFO - User Input: hi
+[2025-08-30 22:36:12,112 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:36:12,682 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:36:13,199 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:36:13,203 ] 40 root - INFO - Chatbot Response: Hello again! I'm still here to help. Unfortunately, I don't have any information about our products, including sarees. If you could provide me with more context or details about what you're looking for, I'd be happy to try and assist you. Let me know how I can help!
+[2025-08-30 22:36:13,203 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:13] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:36:17,632 ] 30 root - INFO - /chat route called
+[2025-08-30 22:36:17,632 ] 33 root - INFO - Request JSON: {'input': 'list saree brand'}
+[2025-08-30 22:36:17,632 ] 35 root - INFO - User Input: list saree brand
+[2025-08-30 22:36:17,633 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:36:18,152 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:36:18,580 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:36:18,587 ] 40 root - INFO - Chatbot Response: I don't have any information about specific saree brands. I'm not aware of the brands we carry or their products. If you could provide me with more context or details, I'd be happy to try and help you find what you're looking for. Let me know if there's anything else I can assist you with!
+[2025-08-30 22:36:18,588 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:18] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:36:28,781 ] 30 root - INFO - /chat route called
+[2025-08-30 22:36:28,781 ] 33 root - INFO - Request JSON: {'input': 'what color should suits me'}
+[2025-08-30 22:36:28,782 ] 35 root - INFO - User Input: what color should suits me
+[2025-08-30 22:36:28,782 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:36:29,386 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:36:29,904 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:36:29,908 ] 40 root - INFO - Chatbot Response: I'd love to help you find a color that suits you. However, I don't have any information about your personal preferences, skin tone, or style. Could you please provide me with more details about yourself, such as your skin tone (fair, medium, dark) or your favorite colors? That way, I can try to give you a more personalized suggestion. Let me know how I can help!
+[2025-08-30 22:36:29,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:29] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:36:36,635 ] 30 root - INFO - /chat route called
+[2025-08-30 22:36:36,635 ] 33 root - INFO - Request JSON: {'input': 'i like blue'}
+[2025-08-30 22:36:36,635 ] 35 root - INFO - User Input: i like blue
+[2025-08-30 22:36:36,635 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:36:37,251 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:36:37,823 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:36:37,826 ] 40 root - INFO - Chatbot Response: Blue is a beautiful color. Since you like blue, you might look great in a blue saree. Unfortunately, I don't have any information about our current inventory of blue sarees. If I had more details about our products, I'd be happy to suggest some options for you. Let me know if there's anything else I can help you with!
+[2025-08-30 22:36:37,827 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:36:37] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:39:11,711 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "GET / HTTP/1.1" 200 -
+[2025-08-30 22:39:11,757 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,761 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,767 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,772 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,783 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,789 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,793 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,797 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,814 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,818 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,819 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,827 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,837 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,848 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,851 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,873 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,880 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,887 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,897 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,900 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,905 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,909 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:11,917 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:11] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 22:39:14,492 ] 30 root - INFO - /chat route called
+[2025-08-30 22:39:14,492 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-30 22:39:14,493 ] 35 root - INFO - User Input: hi
+[2025-08-30 22:39:14,493 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:39:16,585 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:39:17,125 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:39:17,134 ] 40 root - INFO - Chatbot Response: Hello again! I'm still here to help. Is there something specific you'd like to know or discuss about sarees or any other products? I'm all ears and ready to assist you. Let me know how I can help!
+[2025-08-30 22:39:17,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:17] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 22:39:53,803 ] 30 root - INFO - /chat route called
+[2025-08-30 22:39:53,803 ] 33 root - INFO - Request JSON: {'input': 'shirts'}
+[2025-08-30 22:39:53,803 ] 35 root - INFO - User Input: shirts
+[2025-08-30 22:39:53,804 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 22:39:55,029 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 22:39:55,629 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 22:39:55,637 ] 40 root - INFO - Chatbot Response: Shirts! I'd be happy to help you with that. However, I don't have any information about our current inventory of shirts. If you could provide me with more details about what you're looking for, such as style, size, or color, I'd be happy to try and assist you. Let me know if there's anything else I can help you with!
+[2025-08-30 22:39:55,638 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 22:39:55] "POST /chat HTTP/1.1" 200 -
+[2025-08-30 23:12:32,783 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:32] "GET / HTTP/1.1" 200 -
+[2025-08-30 23:12:33,078 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,079 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,081 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,098 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,130 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,186 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,222 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,313 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,336 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,352 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,381 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,467 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,474 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,497 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,508 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,552 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,594 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,674 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,742 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,762 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,768 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:12:33,787 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:12:33] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:13:57,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:57] "GET / HTTP/1.1" 200 -
+[2025-08-30 23:13:58,106 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-30 23:13:58,113 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-02.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,113 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-01.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,177 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-03.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,188 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-04.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-05.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,217 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-30 23:13:58,239 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/shirt-06.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,244 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-01.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,253 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-02.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,272 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-03.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,276 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-05.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,281 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-04.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/saree-06.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,348 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-01.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,348 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-02.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,351 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-03.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,359 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-04.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,369 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-05.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,373 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/watch-06.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,441 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/chatbot-icon-1.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,448 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/chatbot-icon-2-.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,450 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2025-08-30 23:13:58,454 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/left.jpg HTTP/1.1" 200 -
+[2025-08-30 23:13:58,459 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/right-01.jpg HTTP/1.1" 200 -
+[2025-08-30 23:13:58,486 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/right-02.jpg HTTP/1.1" 200 -
+[2025-08-30 23:13:58,502 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:58] "GET /static/images/right-03.jpg HTTP/1.1" 200 -
+[2025-08-30 23:13:59,107 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:13:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-08-30 23:14:01,167 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "GET / HTTP/1.1" 200 -
+[2025-08-30 23:14:01,290 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,332 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,336 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,365 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,476 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,496 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,501 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,508 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,518 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,536 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,540 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,543 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,565 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,669 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,786 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,788 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,794 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,872 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,885 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,930 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,975 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:01,983 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:01] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-30 23:14:14,530 ] 30 root - INFO - /chat route called
+[2025-08-30 23:14:14,548 ] 33 root - INFO - Request JSON: {'input': 'list all of sarees'}
+[2025-08-30 23:14:14,548 ] 35 root - INFO - User Input: list all of sarees
+[2025-08-30 23:14:14,549 ] 38 root - INFO - Invoking chatbot...
+[2025-08-30 23:14:19,193 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-30 23:14:19,823 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-30 23:14:19,845 ] 40 root - INFO - Chatbot Response: I don't have any information about our current inventory of sarees. I'm not aware of the types, brands, or styles of sarees we carry. If you could provide me with more context or details, I'd be happy to try and help you find what you're looking for. Let me know if there's anything else I can assist you with!
+[2025-08-30 23:14:19,847 ] 97 werkzeug - INFO - 127.0.0.1 - - [30/Aug/2025 23:14:19] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 03:34:21,395 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "GET / HTTP/1.1" 200 -
+[2025-08-31 03:34:21,770 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,780 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,783 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,792 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,929 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,942 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,953 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:21,995 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:21] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,016 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,025 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,051 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,055 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,073 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,088 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,116 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,123 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,150 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,182 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,247 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,527 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,555 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:22,693 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:22] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 03:34:26,201 ] 30 root - INFO - /chat route called
+[2025-08-31 03:34:26,220 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-31 03:34:26,220 ] 35 root - INFO - User Input: hi
+[2025-08-31 03:34:26,221 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 03:34:31,061 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 03:34:32,059 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 03:34:32,089 ] 40 root - INFO - Chatbot Response: Hello again! I'm here to help you with any questions or concerns you may have. Unfortunately, I still don't have any information about our products, including sarees. If you could provide me with more context or details about what you're looking for, I'd be happy to try and assist you. Let me know how I can help!
+[2025-08-31 03:34:32,091 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:32] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 03:34:40,167 ] 30 root - INFO - /chat route called
+[2025-08-31 03:34:40,168 ] 33 root - INFO - Request JSON: {'input': 'sarees'}
+[2025-08-31 03:34:40,168 ] 35 root - INFO - User Input: sarees
+[2025-08-31 03:34:40,168 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 03:34:41,983 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 03:34:41,992 ] 40 root - INFO - Chatbot Response: Here are some sarees you might like:
+
+1. Brand: Sugathari
+    Product: Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI S-6)
+    Price: £5.22 (MRP: £21.84, 76% off)
+
+Let me know if you'd like to see more options!
+[2025-08-31 03:34:41,992 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:34:41] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 03:34:56,887 ] 30 root - INFO - /chat route called
+[2025-08-31 03:34:56,888 ] 33 root - INFO - Request JSON: {'input': 'more please'}
+[2025-08-31 03:34:56,888 ] 35 root - INFO - User Input: more please
+[2025-08-31 03:34:56,888 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 03:35:02,565 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 03:35:03,498 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 03:35:03,505 ] 40 root - INFO - Chatbot Response: I apologize for the limited options earlier. Unfortunately, I still don't have any more information about our saree collection. The only one I could find is the one I mentioned earlier:
+
+1. Brand: Sugathari
+    Product: Women's Banarasi Saree Pure Kanjivaram Silk Saree Soft new ladies 2023 Design Wear Pattu Sarees Latest Party Sari collections With Blouse Piece for Wedding sadi (SAM PARI S-6)
+    Price: £5.22 (MRP: £21.84, 76% off)
+
+If you could provide me with more context or details about what you're looking for, I'd be happy to try and help you find what you need. Let me know how I can assist you!
+[2025-08-31 03:35:03,506 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:35:03] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 03:42:05,686 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET / HTTP/1.1" 200 -
+[2025-08-31 03:42:05,913 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/css/hp_style.css HTTP/1.1" 200 -
+[2025-08-31 03:42:05,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-02.png HTTP/1.1" 200 -
+[2025-08-31 03:42:05,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-01.png HTTP/1.1" 200 -
+[2025-08-31 03:42:05,927 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-03.png HTTP/1.1" 200 -
+[2025-08-31 03:42:05,938 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-04.png HTTP/1.1" 200 -
+[2025-08-31 03:42:05,962 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-05.png HTTP/1.1" 200 -
+[2025-08-31 03:42:05,965 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+[2025-08-31 03:42:05,997 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:05] "GET /static/images/shirt-06.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,008 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-01.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,017 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-02.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,024 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-03.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,033 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-04.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,049 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-05.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,081 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-01.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,086 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/saree-06.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,098 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-02.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,114 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-03.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,120 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-04.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,152 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-05.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/watch-06.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,172 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/logo.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,183 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/chatbot-icon-2-.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,196 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/chatbot-icon-1.png HTTP/1.1" 200 -
+[2025-08-31 03:42:06,206 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/left.jpg HTTP/1.1" 200 -
+[2025-08-31 03:42:06,218 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/right-01.jpg HTTP/1.1" 200 -
+[2025-08-31 03:42:06,227 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/right-02.jpg HTTP/1.1" 200 -
+[2025-08-31 03:42:06,234 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:06] "GET /static/images/right-03.jpg HTTP/1.1" 200 -
+[2025-08-31 03:42:10,136 ] 30 root - INFO - /chat route called
+[2025-08-31 03:42:10,140 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-31 03:42:10,140 ] 35 root - INFO - User Input: hi
+[2025-08-31 03:42:10,140 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 03:42:14,853 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 03:42:15,608 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 03:42:15,646 ] 40 root - INFO - Chatbot Response: Hello again! I'm here to help you with any questions or concerns you may have. I still don't have any new information about our saree collection, but I'm happy to try and assist you in any way I can. What's on your mind today? Let me know how I can help!
+[2025-08-31 03:42:15,648 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:15] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 03:42:27,926 ] 30 root - INFO - /chat route called
+[2025-08-31 03:42:27,927 ] 33 root - INFO - Request JSON: {'input': 'what do you  have in stock'}
+[2025-08-31 03:42:27,927 ] 35 root - INFO - User Input: what do you  have in stock
+[2025-08-31 03:42:27,927 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 03:42:29,296 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 03:42:30,556 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 03:42:30,565 ] 40 root - INFO - Chatbot Response: I apologize for the lack of information earlier. Unfortunately, I don't have any information about our current stock or inventory. I'm not aware of the products we have available, including sarees or any other items.
+
+If you could provide me with more context or details about what you're looking for, I'd be happy to try and help you find what you need. Alternatively, if you have any other questions or concerns, feel free to ask and I'll do my best to assist you!
+[2025-08-31 03:42:30,567 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 03:42:30] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 04:03:39,515 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "GET / HTTP/1.1" 200 -
+[2025-08-31 04:03:39,634 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,637 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,645 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,655 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,661 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,667 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,681 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,685 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,695 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,699 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,707 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,714 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,725 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,733 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,745 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,752 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,753 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,760 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,769 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,776 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,780 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,788 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:39,792 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:39] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:03:44,602 ] 30 root - INFO - /chat route called
+[2025-08-31 04:03:44,605 ] 33 root - INFO - Request JSON: {'input': 'hi'}
+[2025-08-31 04:03:44,605 ] 35 root - INFO - User Input: hi
+[2025-08-31 04:03:44,605 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 04:03:48,134 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 04:03:48,837 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 04:03:48,857 ] 40 root - INFO - Chatbot Response: Hello again! I'm here to help you with any questions or concerns you may have. Unfortunately, I still don't have any information about our products or inventory. If you could provide me with more context or details about what you're looking for, I'd be happy to try and help you find what you need. Let me know how I can assist you!
+[2025-08-31 04:03:48,859 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:48] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 04:03:51,304 ] 30 root - INFO - /chat route called
+[2025-08-31 04:03:51,304 ] 33 root - INFO - Request JSON: {'input': 'shirts please'}
+[2025-08-31 04:03:51,305 ] 35 root - INFO - User Input: shirts please
+[2025-08-31 04:03:51,305 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 04:03:51,926 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 04:03:52,633 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 04:03:52,650 ] 40 root - INFO - Chatbot Response: I'd be happy to help you with shirts. Unfortunately, I don't have any information about our current inventory of shirts. I'm not aware of the styles, sizes, or prices of the shirts we may have.
+
+If you could provide me with more details about what you're looking for, such as a specific type of shirt (e.g. casual, formal, etc.), I'd be happy to try and help you find what you need. Let me know how I can assist you!
+[2025-08-31 04:03:52,652 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:03:52] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 04:04:08,237 ] 30 root - INFO - /chat route called
+[2025-08-31 04:04:08,238 ] 33 root - INFO - Request JSON: {'input': 'formal shirts'}
+[2025-08-31 04:04:08,238 ] 35 root - INFO - User Input: formal shirts
+[2025-08-31 04:04:08,238 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 04:04:09,320 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 04:04:10,354 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 04:04:10,363 ] 40 root - INFO - Chatbot Response: Formal shirts! Unfortunately, I don't have any information about our current inventory of formal shirts. I'm not aware of the brands, styles, sizes, or prices of the formal shirts we may have.
+
+If you could provide me with more details about what you're looking for, such as a specific color or fabric, I'd be happy to try and help you find what you need. Let me know how I can assist you!
+[2025-08-31 04:04:10,365 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:04:10] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 04:55:27,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "GET / HTTP/1.1" 200 -
+[2025-08-31 04:55:27,406 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,411 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,439 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,466 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,479 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,552 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,556 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,570 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,648 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,680 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,688 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,721 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,735 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,764 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,792 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,847 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,917 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,933 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,972 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:27,998 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:27] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:28,004 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:28] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:28,020 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:28] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:28,068 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:28] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:28,099 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:28] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 04:55:35,573 ] 30 root - INFO - /chat route called
+[2025-08-31 04:55:35,577 ] 33 root - INFO - Request JSON: {'input': 'watches'}
+[2025-08-31 04:55:35,578 ] 35 root - INFO - User Input: watches
+[2025-08-31 04:55:35,578 ] 38 root - INFO - Invoking chatbot...
+[2025-08-31 04:55:41,386 ] 576 langchain_core.vectorstores.base - WARNING - No relevant docs were retrieved using the relevance score threshold 0.7
+[2025-08-31 04:55:42,642 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-08-31 04:55:42,664 ] 40 root - INFO - Chatbot Response: Watches! Unfortunately, I don't have any information about our current inventory of watches. I'm not aware of the brands, models, prices, or styles of the watches we may have.
+
+If you could provide me with more details about what you're looking for, such as a specific type of watch (e.g. leather strap, stainless steel, etc.), I'd be happy to try and help you find what you need. Let me know how I can assist you!
+[2025-08-31 04:55:42,665 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 04:55:42] "POST /chat HTTP/1.1" 200 -
+[2025-08-31 05:01:38,386 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "GET / HTTP/1.1" 200 -
+[2025-08-31 05:01:38,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/css/hp_style.css HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,594 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,631 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,668 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,687 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,712 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,716 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,725 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/shirt-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,732 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,745 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,800 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,841 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,866 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:38,896 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:38] "[36mGET /static/images/saree-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,047 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-01.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,061 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-02.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,074 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-03.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,135 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/right-03.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,147 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/left.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,189 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/chatbot-icon-2-.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,195 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/right-01.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,200 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,230 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/right-02.jpg HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,261 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-04.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,311 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-05.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,359 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/watch-06.png HTTP/1.1[0m" 304 -
+[2025-08-31 05:01:39,373 ] 97 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2025 05:01:39] "[36mGET /static/images/chatbot-icon-1.png HTTP/1.1[0m" 304 -
